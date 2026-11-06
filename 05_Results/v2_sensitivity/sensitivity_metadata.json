@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-10-21T00:49:49",
+  "environment": {
+    "python": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "pandas": "3.0.5",
+    "matplotlib": "3.10.7",
+    "numpy": "2.3.4"
+  },
+  "runs": 1024,
+  "migration_costs": [
+    0.0,
+    0.1,
+    0.25,
+    0.5
+  ],
+  "context_switch_costs": [
+    0.0,
+    0.1,
+    0.25,
+    0.5
+  ],
+  "cost_unit": "simulated work units (1.0 = one tick of work at 2.5 GHz)",
+  "overhead_model": "A dispatch event occurs when a task runs in tick t but did not run on the same core in tick t-1. First dispatch: no charge. Migration (last ran on a different core): migration_cost. Resume (last ran on the same core, not in the previous tick): context_switch_cost. Each event is charged once; a migration is never also charged as a context switch. The charge is added to the task's remaining work at dispatch, so the core spends that capacity busy (heating at the task's intensity) before the task progresses.",
+  "policies": [
+    "FCFS",
+    "Priority",
+    "Round Robin",
+    "ThermOS-VR",
+    "EDF-NP",
+    "EDF",
+    "TA-EDF",
+    "EEVDF-inspired"
+  ],
+  "dvfs_settings": [
+    "off",
+    "hysteresis"
+  ],
+  "workloads": [
+    "Normal VR Workload",
+    "Burst VR Workload",
+    "Sustained Thermal Workload",
+    "HOT Thermal Workload"
+  ],
+  "thermal_parameters": {
+    "ambient_temperature": 25.0,
+    "initial_temperature": 45.0,
+    "heat_coefficient": 1.0,
+    "cooling_coefficient": 0.02,
+    "reference_frequency": 2.5
+  },
+  "source_sha256": {
+    "sim_engine.py": "d0e53060ae84dea8a0dd7199df4009c167f2dbfcad7fee5c8e1aaeef8d0ed236",
+    "overhead_engine.py": "643078c519ea1956294faa0af7342057fc5812eb9247c51a36a000a7297a42a0",
+    "policies.py": "a97d8675d380c1c4a6c30de053d47a12c8d697b91b576e74c696f2bd76bc8ea4",
+    "metrics_v2.py": "d798abd18fd1526ba02bca68e2994dad153a8f5aae1d68c5a5c021c0700117f2",
+    "run_benchmark.py": "80be64dfe256582e62392b4bdde716ebff3fe8761afcd38ed09b58b625c13dbb",
+    "run_sensitivity.py": "dffc29514ec91f96fa01691aa5a1e96045d34778ee48ae14eb3521a180b2c5f9",
+    "output_guard.py": "272062661fdbe3c75ad6abed62f7e37c795a2729cb3f4f9747894c008899bcff"
+  },
+  "command": "python.exe run_sensitivity.py",
+  "platform": "Windows-11-10.0.26200-SP0"
+}

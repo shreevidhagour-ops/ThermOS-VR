@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-10-21T00:15:54",
+  "python": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "runs": 64,
+  "policies": [
+    "FCFS",
+    "Priority",
+    "Round Robin",
+    "ThermOS-VR",
+    "EDF-NP",
+    "EDF",
+    "TA-EDF",
+    "EEVDF-inspired"
+  ],
+  "dvfs_settings": [
+    "off",
+    "hysteresis"
+  ],
+  "workloads": [
+    "Normal VR Workload",
+    "Burst VR Workload",
+    "Sustained Thermal Workload",
+    "HOT Thermal Workload"
+  ],
+  "thermal_parameters": {
+    "ambient_temperature": 25.0,
+    "initial_temperature": 45.0,
+    "heat_coefficient": 1.0,
+    "cooling_coefficient": 0.02,
+    "reference_frequency": 2.5
+  },
+  "cores": "2 (labels Performance/Efficiency; physically identical)",
+  "source_sha256": {
+    "03_Code\\day5_modern_baselines\\sim_engine.py": "d0e53060ae84dea8a0dd7199df4009c167f2dbfcad7fee5c8e1aaeef8d0ed236",
+    "03_Code\\day5_modern_baselines\\policies.py": "a97d8675d380c1c4a6c30de053d47a12c8d697b91b576e74c696f2bd76bc8ea4",
+    "03_Code\\day5_modern_baselines\\metrics_v2.py": "d798abd18fd1526ba02bca68e2994dad153a8f5aae1d68c5a5c021c0700117f2",
+    "03_Code\\day5_modern_baselines\\run_benchmark.py": "a9d605669ae337981300c51d3569b32d0c0041aed9f79b9af13c98ca971b9e8f",
+    "03_Code\\day1_basic_scheduler\\process.py": "9d401ce0407fdb3138b34cd96a7bdd04b29c2a993555a391c04dc437b78c92ea",
+    "03_Code\\day1_basic_scheduler\\core.py": "038b6eebbb4ae216058fb7eb04afc1fdc4811fd836573f2a019eb475f692861b",
+    "03_Code\\day1_basic_scheduler\\workloads.py": "5755c2258bf52aae4b10020d506be6e428cde2e41c85c90444146bc2480abe9a",
+    "03_Code\\day2_thermal_model\\thermal_model.py": "899eccd32b09d7ddfca1809afabaa3f0b56dad27c55e7900486d02482e1fd4b0"
+  },
+  "v1_results_sha256_unchanged": "b4704a82bc7dbfaf11486577ec1b75a4ac88a8700f45fa2fca30325b0acf2c55"
+}

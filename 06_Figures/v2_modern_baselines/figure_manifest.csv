@@ -1,0 +1,769 @@
+Figure,DVFS,Workload,Policy,Metric,Plotted Value
+off_waiting_time.png,off,Normal VR Workload,FCFS,Average Waiting Time,3.5
+off_waiting_time.png,off,Normal VR Workload,Priority,Average Waiting Time,2.833333333333333
+off_waiting_time.png,off,Normal VR Workload,Round Robin,Average Waiting Time,4.333333333333333
+off_waiting_time.png,off,Normal VR Workload,ThermOS-VR,Average Waiting Time,3.5
+off_waiting_time.png,off,Normal VR Workload,EDF-NP,Average Waiting Time,2.833333333333333
+off_waiting_time.png,off,Normal VR Workload,EDF,Average Waiting Time,2.833333333333333
+off_waiting_time.png,off,Normal VR Workload,TA-EDF,Average Waiting Time,2.833333333333333
+off_waiting_time.png,off,Normal VR Workload,EEVDF-inspired,Average Waiting Time,3.8333333333333335
+off_waiting_time.png,off,Burst VR Workload,FCFS,Average Waiting Time,4.333333333333333
+off_waiting_time.png,off,Burst VR Workload,Priority,Average Waiting Time,4.333333333333333
+off_waiting_time.png,off,Burst VR Workload,Round Robin,Average Waiting Time,5.833333333333333
+off_waiting_time.png,off,Burst VR Workload,ThermOS-VR,Average Waiting Time,4.333333333333333
+off_waiting_time.png,off,Burst VR Workload,EDF-NP,Average Waiting Time,4.333333333333333
+off_waiting_time.png,off,Burst VR Workload,EDF,Average Waiting Time,3.0
+off_waiting_time.png,off,Burst VR Workload,TA-EDF,Average Waiting Time,3.0
+off_waiting_time.png,off,Burst VR Workload,EEVDF-inspired,Average Waiting Time,4.833333333333333
+off_waiting_time.png,off,Sustained Thermal Workload,FCFS,Average Waiting Time,45.0
+off_waiting_time.png,off,Sustained Thermal Workload,Priority,Average Waiting Time,44.16666666666666
+off_waiting_time.png,off,Sustained Thermal Workload,Round Robin,Average Waiting Time,67.66666666666667
+off_waiting_time.png,off,Sustained Thermal Workload,ThermOS-VR,Average Waiting Time,45.0
+off_waiting_time.png,off,Sustained Thermal Workload,EDF-NP,Average Waiting Time,40.833333333333336
+off_waiting_time.png,off,Sustained Thermal Workload,EDF,Average Waiting Time,39.16666666666666
+off_waiting_time.png,off,Sustained Thermal Workload,TA-EDF,Average Waiting Time,39.16666666666666
+off_waiting_time.png,off,Sustained Thermal Workload,EEVDF-inspired,Average Waiting Time,52.5
+off_waiting_time.png,off,HOT Thermal Workload,FCFS,Average Waiting Time,72.5
+off_waiting_time.png,off,HOT Thermal Workload,Priority,Average Waiting Time,72.5
+off_waiting_time.png,off,HOT Thermal Workload,Round Robin,Average Waiting Time,114.0
+off_waiting_time.png,off,HOT Thermal Workload,ThermOS-VR,Average Waiting Time,72.5
+off_waiting_time.png,off,HOT Thermal Workload,EDF-NP,Average Waiting Time,66.66666666666667
+off_waiting_time.png,off,HOT Thermal Workload,EDF,Average Waiting Time,64.16666666666667
+off_waiting_time.png,off,HOT Thermal Workload,TA-EDF,Average Waiting Time,64.33333333333333
+off_waiting_time.png,off,HOT Thermal Workload,EEVDF-inspired,Average Waiting Time,91.5
+off_turnaround_time.png,off,Normal VR Workload,FCFS,Average Turnaround Time,8.166666666666666
+off_turnaround_time.png,off,Normal VR Workload,Priority,Average Turnaround Time,7.5
+off_turnaround_time.png,off,Normal VR Workload,Round Robin,Average Turnaround Time,9.0
+off_turnaround_time.png,off,Normal VR Workload,ThermOS-VR,Average Turnaround Time,8.166666666666666
+off_turnaround_time.png,off,Normal VR Workload,EDF-NP,Average Turnaround Time,7.5
+off_turnaround_time.png,off,Normal VR Workload,EDF,Average Turnaround Time,7.5
+off_turnaround_time.png,off,Normal VR Workload,TA-EDF,Average Turnaround Time,7.5
+off_turnaround_time.png,off,Normal VR Workload,EEVDF-inspired,Average Turnaround Time,8.5
+off_turnaround_time.png,off,Burst VR Workload,FCFS,Average Turnaround Time,14.833333333333334
+off_turnaround_time.png,off,Burst VR Workload,Priority,Average Turnaround Time,14.833333333333334
+off_turnaround_time.png,off,Burst VR Workload,Round Robin,Average Turnaround Time,16.333333333333332
+off_turnaround_time.png,off,Burst VR Workload,ThermOS-VR,Average Turnaround Time,14.833333333333334
+off_turnaround_time.png,off,Burst VR Workload,EDF-NP,Average Turnaround Time,14.833333333333334
+off_turnaround_time.png,off,Burst VR Workload,EDF,Average Turnaround Time,13.5
+off_turnaround_time.png,off,Burst VR Workload,TA-EDF,Average Turnaround Time,13.5
+off_turnaround_time.png,off,Burst VR Workload,EEVDF-inspired,Average Turnaround Time,15.333333333333334
+off_turnaround_time.png,off,Sustained Thermal Workload,FCFS,Average Turnaround Time,85.83333333333333
+off_turnaround_time.png,off,Sustained Thermal Workload,Priority,Average Turnaround Time,85.0
+off_turnaround_time.png,off,Sustained Thermal Workload,Round Robin,Average Turnaround Time,108.5
+off_turnaround_time.png,off,Sustained Thermal Workload,ThermOS-VR,Average Turnaround Time,85.83333333333333
+off_turnaround_time.png,off,Sustained Thermal Workload,EDF-NP,Average Turnaround Time,81.66666666666667
+off_turnaround_time.png,off,Sustained Thermal Workload,EDF,Average Turnaround Time,80.0
+off_turnaround_time.png,off,Sustained Thermal Workload,TA-EDF,Average Turnaround Time,80.0
+off_turnaround_time.png,off,Sustained Thermal Workload,EEVDF-inspired,Average Turnaround Time,93.33333333333331
+off_turnaround_time.png,off,HOT Thermal Workload,FCFS,Average Turnaround Time,140.0
+off_turnaround_time.png,off,HOT Thermal Workload,Priority,Average Turnaround Time,140.0
+off_turnaround_time.png,off,HOT Thermal Workload,Round Robin,Average Turnaround Time,181.5
+off_turnaround_time.png,off,HOT Thermal Workload,ThermOS-VR,Average Turnaround Time,140.0
+off_turnaround_time.png,off,HOT Thermal Workload,EDF-NP,Average Turnaround Time,134.16666666666666
+off_turnaround_time.png,off,HOT Thermal Workload,EDF,Average Turnaround Time,131.66666666666666
+off_turnaround_time.png,off,HOT Thermal Workload,TA-EDF,Average Turnaround Time,131.83333333333334
+off_turnaround_time.png,off,HOT Thermal Workload,EEVDF-inspired,Average Turnaround Time,159.0
+off_completion_time.png,off,Normal VR Workload,FCFS,Average Completion Time,10.666666666666666
+off_completion_time.png,off,Normal VR Workload,Priority,Average Completion Time,10.0
+off_completion_time.png,off,Normal VR Workload,Round Robin,Average Completion Time,11.5
+off_completion_time.png,off,Normal VR Workload,ThermOS-VR,Average Completion Time,10.666666666666666
+off_completion_time.png,off,Normal VR Workload,EDF-NP,Average Completion Time,10.0
+off_completion_time.png,off,Normal VR Workload,EDF,Average Completion Time,10.0
+off_completion_time.png,off,Normal VR Workload,TA-EDF,Average Completion Time,10.0
+off_completion_time.png,off,Normal VR Workload,EEVDF-inspired,Average Completion Time,11.0
+off_completion_time.png,off,Burst VR Workload,FCFS,Average Completion Time,20.666666666666668
+off_completion_time.png,off,Burst VR Workload,Priority,Average Completion Time,20.666666666666668
+off_completion_time.png,off,Burst VR Workload,Round Robin,Average Completion Time,22.166666666666668
+off_completion_time.png,off,Burst VR Workload,ThermOS-VR,Average Completion Time,20.666666666666668
+off_completion_time.png,off,Burst VR Workload,EDF-NP,Average Completion Time,20.666666666666668
+off_completion_time.png,off,Burst VR Workload,EDF,Average Completion Time,19.33333333333333
+off_completion_time.png,off,Burst VR Workload,TA-EDF,Average Completion Time,19.33333333333333
+off_completion_time.png,off,Burst VR Workload,EEVDF-inspired,Average Completion Time,21.166666666666668
+off_completion_time.png,off,Sustained Thermal Workload,FCFS,Average Completion Time,88.33333333333333
+off_completion_time.png,off,Sustained Thermal Workload,Priority,Average Completion Time,87.5
+off_completion_time.png,off,Sustained Thermal Workload,Round Robin,Average Completion Time,111.0
+off_completion_time.png,off,Sustained Thermal Workload,ThermOS-VR,Average Completion Time,88.33333333333333
+off_completion_time.png,off,Sustained Thermal Workload,EDF-NP,Average Completion Time,84.16666666666667
+off_completion_time.png,off,Sustained Thermal Workload,EDF,Average Completion Time,82.5
+off_completion_time.png,off,Sustained Thermal Workload,TA-EDF,Average Completion Time,82.5
+off_completion_time.png,off,Sustained Thermal Workload,EEVDF-inspired,Average Completion Time,95.83333333333331
+off_completion_time.png,off,HOT Thermal Workload,FCFS,Average Completion Time,145.0
+off_completion_time.png,off,HOT Thermal Workload,Priority,Average Completion Time,145.0
+off_completion_time.png,off,HOT Thermal Workload,Round Robin,Average Completion Time,186.5
+off_completion_time.png,off,HOT Thermal Workload,ThermOS-VR,Average Completion Time,145.0
+off_completion_time.png,off,HOT Thermal Workload,EDF-NP,Average Completion Time,139.16666666666666
+off_completion_time.png,off,HOT Thermal Workload,EDF,Average Completion Time,136.66666666666666
+off_completion_time.png,off,HOT Thermal Workload,TA-EDF,Average Completion Time,136.83333333333334
+off_completion_time.png,off,HOT Thermal Workload,EEVDF-inspired,Average Completion Time,164.0
+off_deadline_misses.png,off,Normal VR Workload,FCFS,Deadline Misses,2
+off_deadline_misses.png,off,Normal VR Workload,Priority,Deadline Misses,1
+off_deadline_misses.png,off,Normal VR Workload,Round Robin,Deadline Misses,2
+off_deadline_misses.png,off,Normal VR Workload,ThermOS-VR,Deadline Misses,2
+off_deadline_misses.png,off,Normal VR Workload,EDF-NP,Deadline Misses,1
+off_deadline_misses.png,off,Normal VR Workload,EDF,Deadline Misses,1
+off_deadline_misses.png,off,Normal VR Workload,TA-EDF,Deadline Misses,1
+off_deadline_misses.png,off,Normal VR Workload,EEVDF-inspired,Deadline Misses,2
+off_deadline_misses.png,off,Burst VR Workload,FCFS,Deadline Misses,3
+off_deadline_misses.png,off,Burst VR Workload,Priority,Deadline Misses,3
+off_deadline_misses.png,off,Burst VR Workload,Round Robin,Deadline Misses,4
+off_deadline_misses.png,off,Burst VR Workload,ThermOS-VR,Deadline Misses,3
+off_deadline_misses.png,off,Burst VR Workload,EDF-NP,Deadline Misses,3
+off_deadline_misses.png,off,Burst VR Workload,EDF,Deadline Misses,2
+off_deadline_misses.png,off,Burst VR Workload,TA-EDF,Deadline Misses,2
+off_deadline_misses.png,off,Burst VR Workload,EEVDF-inspired,Deadline Misses,4
+off_deadline_misses.png,off,Sustained Thermal Workload,FCFS,Deadline Misses,4
+off_deadline_misses.png,off,Sustained Thermal Workload,Priority,Deadline Misses,4
+off_deadline_misses.png,off,Sustained Thermal Workload,Round Robin,Deadline Misses,6
+off_deadline_misses.png,off,Sustained Thermal Workload,ThermOS-VR,Deadline Misses,4
+off_deadline_misses.png,off,Sustained Thermal Workload,EDF-NP,Deadline Misses,4
+off_deadline_misses.png,off,Sustained Thermal Workload,EDF,Deadline Misses,4
+off_deadline_misses.png,off,Sustained Thermal Workload,TA-EDF,Deadline Misses,4
+off_deadline_misses.png,off,Sustained Thermal Workload,EEVDF-inspired,Deadline Misses,6
+off_deadline_misses.png,off,HOT Thermal Workload,FCFS,Deadline Misses,4
+off_deadline_misses.png,off,HOT Thermal Workload,Priority,Deadline Misses,4
+off_deadline_misses.png,off,HOT Thermal Workload,Round Robin,Deadline Misses,6
+off_deadline_misses.png,off,HOT Thermal Workload,ThermOS-VR,Deadline Misses,4
+off_deadline_misses.png,off,HOT Thermal Workload,EDF-NP,Deadline Misses,4
+off_deadline_misses.png,off,HOT Thermal Workload,EDF,Deadline Misses,4
+off_deadline_misses.png,off,HOT Thermal Workload,TA-EDF,Deadline Misses,4
+off_deadline_misses.png,off,HOT Thermal Workload,EEVDF-inspired,Deadline Misses,6
+off_total_tardiness.png,off,Normal VR Workload,FCFS,Total Tardiness,2
+off_total_tardiness.png,off,Normal VR Workload,Priority,Total Tardiness,2
+off_total_tardiness.png,off,Normal VR Workload,Round Robin,Total Tardiness,5
+off_total_tardiness.png,off,Normal VR Workload,ThermOS-VR,Total Tardiness,2
+off_total_tardiness.png,off,Normal VR Workload,EDF-NP,Total Tardiness,2
+off_total_tardiness.png,off,Normal VR Workload,EDF,Total Tardiness,2
+off_total_tardiness.png,off,Normal VR Workload,TA-EDF,Total Tardiness,2
+off_total_tardiness.png,off,Normal VR Workload,EEVDF-inspired,Total Tardiness,3
+off_total_tardiness.png,off,Burst VR Workload,FCFS,Total Tardiness,23
+off_total_tardiness.png,off,Burst VR Workload,Priority,Total Tardiness,23
+off_total_tardiness.png,off,Burst VR Workload,Round Robin,Total Tardiness,30
+off_total_tardiness.png,off,Burst VR Workload,ThermOS-VR,Total Tardiness,23
+off_total_tardiness.png,off,Burst VR Workload,EDF-NP,Total Tardiness,23
+off_total_tardiness.png,off,Burst VR Workload,EDF,Total Tardiness,17
+off_total_tardiness.png,off,Burst VR Workload,TA-EDF,Total Tardiness,17
+off_total_tardiness.png,off,Burst VR Workload,EEVDF-inspired,Total Tardiness,24
+off_total_tardiness.png,off,Sustained Thermal Workload,FCFS,Total Tardiness,215
+off_total_tardiness.png,off,Sustained Thermal Workload,Priority,Total Tardiness,212
+off_total_tardiness.png,off,Sustained Thermal Workload,Round Robin,Total Tardiness,338
+off_total_tardiness.png,off,Sustained Thermal Workload,ThermOS-VR,Total Tardiness,215
+off_total_tardiness.png,off,Sustained Thermal Workload,EDF-NP,Total Tardiness,192
+off_total_tardiness.png,off,Sustained Thermal Workload,EDF,Total Tardiness,182
+off_total_tardiness.png,off,Sustained Thermal Workload,TA-EDF,Total Tardiness,182
+off_total_tardiness.png,off,Sustained Thermal Workload,EEVDF-inspired,Total Tardiness,247
+off_total_tardiness.png,off,HOT Thermal Workload,FCFS,Total Tardiness,355
+off_total_tardiness.png,off,HOT Thermal Workload,Priority,Total Tardiness,355
+off_total_tardiness.png,off,HOT Thermal Workload,Round Robin,Total Tardiness,579
+off_total_tardiness.png,off,HOT Thermal Workload,ThermOS-VR,Total Tardiness,355
+off_total_tardiness.png,off,HOT Thermal Workload,EDF-NP,Total Tardiness,320
+off_total_tardiness.png,off,HOT Thermal Workload,EDF,Total Tardiness,305
+off_total_tardiness.png,off,HOT Thermal Workload,TA-EDF,Total Tardiness,305
+off_total_tardiness.png,off,HOT Thermal Workload,EEVDF-inspired,Total Tardiness,444
+off_average_temperature.png,off,Normal VR Workload,FCFS,Average Temperature,47.18510421794115
+off_average_temperature.png,off,Normal VR Workload,Priority,Average Temperature,47.00796347641154
+off_average_temperature.png,off,Normal VR Workload,Round Robin,Average Temperature,46.86790199069661
+off_average_temperature.png,off,Normal VR Workload,ThermOS-VR,Average Temperature,47.18510421794115
+off_average_temperature.png,off,Normal VR Workload,EDF-NP,Average Temperature,47.00796347641154
+off_average_temperature.png,off,Normal VR Workload,EDF,Average Temperature,47.00796347641154
+off_average_temperature.png,off,Normal VR Workload,TA-EDF,Average Temperature,47.00796347641154
+off_average_temperature.png,off,Normal VR Workload,EEVDF-inspired,Average Temperature,46.98493351809922
+off_average_temperature.png,off,Burst VR Workload,FCFS,Average Temperature,52.28962999726585
+off_average_temperature.png,off,Burst VR Workload,Priority,Average Temperature,52.28962999726585
+off_average_temperature.png,off,Burst VR Workload,Round Robin,Average Temperature,52.01615270803234
+off_average_temperature.png,off,Burst VR Workload,ThermOS-VR,Average Temperature,52.28962999726585
+off_average_temperature.png,off,Burst VR Workload,EDF-NP,Average Temperature,52.28962999726585
+off_average_temperature.png,off,Burst VR Workload,EDF,Average Temperature,51.86924800694271
+off_average_temperature.png,off,Burst VR Workload,TA-EDF,Average Temperature,51.86924800694271
+off_average_temperature.png,off,Burst VR Workload,EEVDF-inspired,Average Temperature,52.20423680923027
+off_average_temperature.png,off,Sustained Thermal Workload,FCFS,Average Temperature,60.74982968913146
+off_average_temperature.png,off,Sustained Thermal Workload,Priority,Average Temperature,60.64834915240594
+off_average_temperature.png,off,Sustained Thermal Workload,Round Robin,Average Temperature,58.38770448987037
+off_average_temperature.png,off,Sustained Thermal Workload,ThermOS-VR,Average Temperature,60.74982968913146
+off_average_temperature.png,off,Sustained Thermal Workload,EDF-NP,Average Temperature,59.61430070045819
+off_average_temperature.png,off,Sustained Thermal Workload,EDF,Average Temperature,59.34456120058222
+off_average_temperature.png,off,Sustained Thermal Workload,TA-EDF,Average Temperature,59.34456120058224
+off_average_temperature.png,off,Sustained Thermal Workload,EEVDF-inspired,Average Temperature,59.98434106098128
+off_average_temperature.png,off,HOT Thermal Workload,FCFS,Average Temperature,65.11227032948166
+off_average_temperature.png,off,HOT Thermal Workload,Priority,Average Temperature,65.11227032948166
+off_average_temperature.png,off,HOT Thermal Workload,Round Robin,Average Temperature,63.17916443948874
+off_average_temperature.png,off,HOT Thermal Workload,ThermOS-VR,Average Temperature,65.11227032948166
+off_average_temperature.png,off,HOT Thermal Workload,EDF-NP,Average Temperature,64.09432073560636
+off_average_temperature.png,off,HOT Thermal Workload,EDF,Average Temperature,63.95638143862052
+off_average_temperature.png,off,HOT Thermal Workload,TA-EDF,Average Temperature,63.990096234990745
+off_average_temperature.png,off,HOT Thermal Workload,EEVDF-inspired,Average Temperature,63.69766237486861
+off_peak_temperature.png,off,Normal VR Workload,FCFS,Peak Temperature,49.09959623125509
+off_peak_temperature.png,off,Normal VR Workload,Priority,Peak Temperature,50.58816336744743
+off_peak_temperature.png,off,Normal VR Workload,Round Robin,Peak Temperature,48.20218665088495
+off_peak_temperature.png,off,Normal VR Workload,ThermOS-VR,Peak Temperature,49.09959623125509
+off_peak_temperature.png,off,Normal VR Workload,EDF-NP,Peak Temperature,50.58816336744743
+off_peak_temperature.png,off,Normal VR Workload,EDF,Peak Temperature,50.58816336744743
+off_peak_temperature.png,off,Normal VR Workload,TA-EDF,Peak Temperature,48.0960742884129
+off_peak_temperature.png,off,Normal VR Workload,EEVDF-inspired,Peak Temperature,50.40737920808741
+off_peak_temperature.png,off,Burst VR Workload,FCFS,Peak Temperature,57.23595961308088
+off_peak_temperature.png,off,Burst VR Workload,Priority,Peak Temperature,57.23595961308088
+off_peak_temperature.png,off,Burst VR Workload,Round Robin,Peak Temperature,57.65487642594452
+off_peak_temperature.png,off,Burst VR Workload,ThermOS-VR,Peak Temperature,57.23595961308088
+off_peak_temperature.png,off,Burst VR Workload,EDF-NP,Peak Temperature,57.23595961308088
+off_peak_temperature.png,off,Burst VR Workload,EDF,Peak Temperature,57.5806636178619
+off_peak_temperature.png,off,Burst VR Workload,TA-EDF,Peak Temperature,57.50005442128635
+off_peak_temperature.png,off,Burst VR Workload,EEVDF-inspired,Peak Temperature,58.1595984007889
+off_peak_temperature.png,off,Sustained Thermal Workload,FCFS,Peak Temperature,67.61291223296823
+off_peak_temperature.png,off,Sustained Thermal Workload,Priority,Peak Temperature,67.92167822611638
+off_peak_temperature.png,off,Sustained Thermal Workload,Round Robin,Peak Temperature,67.10704297509133
+off_peak_temperature.png,off,Sustained Thermal Workload,ThermOS-VR,Peak Temperature,67.61291223296823
+off_peak_temperature.png,off,Sustained Thermal Workload,EDF-NP,Peak Temperature,67.10598273817052
+off_peak_temperature.png,off,Sustained Thermal Workload,EDF,Peak Temperature,68.48220467631329
+off_peak_temperature.png,off,Sustained Thermal Workload,TA-EDF,Peak Temperature,66.6634935613345
+off_peak_temperature.png,off,Sustained Thermal Workload,EEVDF-inspired,Peak Temperature,67.25019948427716
+off_peak_temperature.png,off,HOT Thermal Workload,FCFS,Peak Temperature,71.73973555382821
+off_peak_temperature.png,off,HOT Thermal Workload,Priority,Peak Temperature,71.73973555382821
+off_peak_temperature.png,off,HOT Thermal Workload,Round Robin,Peak Temperature,71.25952669281051
+off_peak_temperature.png,off,HOT Thermal Workload,ThermOS-VR,Peak Temperature,71.73973555382821
+off_peak_temperature.png,off,HOT Thermal Workload,EDF-NP,Peak Temperature,72.48734280654726
+off_peak_temperature.png,off,HOT Thermal Workload,EDF,Peak Temperature,73.64152876091853
+off_peak_temperature.png,off,HOT Thermal Workload,TA-EDF,Peak Temperature,71.67000567057502
+off_peak_temperature.png,off,HOT Thermal Workload,EEVDF-inspired,Peak Temperature,72.35097049307726
+off_thermal_exposure.png,off,Normal VR Workload,FCFS,Thermal Exposure (HOT core-ticks),0
+off_thermal_exposure.png,off,Normal VR Workload,Priority,Thermal Exposure (HOT core-ticks),0
+off_thermal_exposure.png,off,Normal VR Workload,Round Robin,Thermal Exposure (HOT core-ticks),0
+off_thermal_exposure.png,off,Normal VR Workload,ThermOS-VR,Thermal Exposure (HOT core-ticks),0
+off_thermal_exposure.png,off,Normal VR Workload,EDF-NP,Thermal Exposure (HOT core-ticks),0
+off_thermal_exposure.png,off,Normal VR Workload,EDF,Thermal Exposure (HOT core-ticks),0
+off_thermal_exposure.png,off,Normal VR Workload,TA-EDF,Thermal Exposure (HOT core-ticks),0
+off_thermal_exposure.png,off,Normal VR Workload,EEVDF-inspired,Thermal Exposure (HOT core-ticks),0
+off_thermal_exposure.png,off,Burst VR Workload,FCFS,Thermal Exposure (HOT core-ticks),0
+off_thermal_exposure.png,off,Burst VR Workload,Priority,Thermal Exposure (HOT core-ticks),0
+off_thermal_exposure.png,off,Burst VR Workload,Round Robin,Thermal Exposure (HOT core-ticks),0
+off_thermal_exposure.png,off,Burst VR Workload,ThermOS-VR,Thermal Exposure (HOT core-ticks),0
+off_thermal_exposure.png,off,Burst VR Workload,EDF-NP,Thermal Exposure (HOT core-ticks),0
+off_thermal_exposure.png,off,Burst VR Workload,EDF,Thermal Exposure (HOT core-ticks),0
+off_thermal_exposure.png,off,Burst VR Workload,TA-EDF,Thermal Exposure (HOT core-ticks),0
+off_thermal_exposure.png,off,Burst VR Workload,EEVDF-inspired,Thermal Exposure (HOT core-ticks),0
+off_thermal_exposure.png,off,Sustained Thermal Workload,FCFS,Thermal Exposure (HOT core-ticks),0
+off_thermal_exposure.png,off,Sustained Thermal Workload,Priority,Thermal Exposure (HOT core-ticks),0
+off_thermal_exposure.png,off,Sustained Thermal Workload,Round Robin,Thermal Exposure (HOT core-ticks),0
+off_thermal_exposure.png,off,Sustained Thermal Workload,ThermOS-VR,Thermal Exposure (HOT core-ticks),0
+off_thermal_exposure.png,off,Sustained Thermal Workload,EDF-NP,Thermal Exposure (HOT core-ticks),0
+off_thermal_exposure.png,off,Sustained Thermal Workload,EDF,Thermal Exposure (HOT core-ticks),0
+off_thermal_exposure.png,off,Sustained Thermal Workload,TA-EDF,Thermal Exposure (HOT core-ticks),0
+off_thermal_exposure.png,off,Sustained Thermal Workload,EEVDF-inspired,Thermal Exposure (HOT core-ticks),0
+off_thermal_exposure.png,off,HOT Thermal Workload,FCFS,Thermal Exposure (HOT core-ticks),64
+off_thermal_exposure.png,off,HOT Thermal Workload,Priority,Thermal Exposure (HOT core-ticks),64
+off_thermal_exposure.png,off,HOT Thermal Workload,Round Robin,Thermal Exposure (HOT core-ticks),18
+off_thermal_exposure.png,off,HOT Thermal Workload,ThermOS-VR,Thermal Exposure (HOT core-ticks),64
+off_thermal_exposure.png,off,HOT Thermal Workload,EDF-NP,Thermal Exposure (HOT core-ticks),35
+off_thermal_exposure.png,off,HOT Thermal Workload,EDF,Thermal Exposure (HOT core-ticks),65
+off_thermal_exposure.png,off,HOT Thermal Workload,TA-EDF,Thermal Exposure (HOT core-ticks),26
+off_thermal_exposure.png,off,HOT Thermal Workload,EEVDF-inspired,Thermal Exposure (HOT core-ticks),104
+off_core_ticks_above_60c.png,off,Normal VR Workload,FCFS,Core-ticks >= 60C,0
+off_core_ticks_above_60c.png,off,Normal VR Workload,Priority,Core-ticks >= 60C,0
+off_core_ticks_above_60c.png,off,Normal VR Workload,Round Robin,Core-ticks >= 60C,0
+off_core_ticks_above_60c.png,off,Normal VR Workload,ThermOS-VR,Core-ticks >= 60C,0
+off_core_ticks_above_60c.png,off,Normal VR Workload,EDF-NP,Core-ticks >= 60C,0
+off_core_ticks_above_60c.png,off,Normal VR Workload,EDF,Core-ticks >= 60C,0
+off_core_ticks_above_60c.png,off,Normal VR Workload,TA-EDF,Core-ticks >= 60C,0
+off_core_ticks_above_60c.png,off,Normal VR Workload,EEVDF-inspired,Core-ticks >= 60C,0
+off_core_ticks_above_60c.png,off,Burst VR Workload,FCFS,Core-ticks >= 60C,0
+off_core_ticks_above_60c.png,off,Burst VR Workload,Priority,Core-ticks >= 60C,0
+off_core_ticks_above_60c.png,off,Burst VR Workload,Round Robin,Core-ticks >= 60C,0
+off_core_ticks_above_60c.png,off,Burst VR Workload,ThermOS-VR,Core-ticks >= 60C,0
+off_core_ticks_above_60c.png,off,Burst VR Workload,EDF-NP,Core-ticks >= 60C,0
+off_core_ticks_above_60c.png,off,Burst VR Workload,EDF,Core-ticks >= 60C,0
+off_core_ticks_above_60c.png,off,Burst VR Workload,TA-EDF,Core-ticks >= 60C,0
+off_core_ticks_above_60c.png,off,Burst VR Workload,EEVDF-inspired,Core-ticks >= 60C,0
+off_core_ticks_above_60c.png,off,Sustained Thermal Workload,FCFS,Core-ticks >= 60C,170
+off_core_ticks_above_60c.png,off,Sustained Thermal Workload,Priority,Core-ticks >= 60C,165
+off_core_ticks_above_60c.png,off,Sustained Thermal Workload,Round Robin,Core-ticks >= 60C,109
+off_core_ticks_above_60c.png,off,Sustained Thermal Workload,ThermOS-VR,Core-ticks >= 60C,170
+off_core_ticks_above_60c.png,off,Sustained Thermal Workload,EDF-NP,Core-ticks >= 60C,121
+off_core_ticks_above_60c.png,off,Sustained Thermal Workload,EDF,Core-ticks >= 60C,137
+off_core_ticks_above_60c.png,off,Sustained Thermal Workload,TA-EDF,Core-ticks >= 60C,154
+off_core_ticks_above_60c.png,off,Sustained Thermal Workload,EEVDF-inspired,Core-ticks >= 60C,157
+off_core_ticks_above_60c.png,off,HOT Thermal Workload,FCFS,Core-ticks >= 60C,341
+off_core_ticks_above_60c.png,off,HOT Thermal Workload,Priority,Core-ticks >= 60C,341
+off_core_ticks_above_60c.png,off,HOT Thermal Workload,Round Robin,Core-ticks >= 60C,310
+off_core_ticks_above_60c.png,off,HOT Thermal Workload,ThermOS-VR,Core-ticks >= 60C,341
+off_core_ticks_above_60c.png,off,HOT Thermal Workload,EDF-NP,Core-ticks >= 60C,332
+off_core_ticks_above_60c.png,off,HOT Thermal Workload,EDF,Core-ticks >= 60C,299
+off_core_ticks_above_60c.png,off,HOT Thermal Workload,TA-EDF,Core-ticks >= 60C,304
+off_core_ticks_above_60c.png,off,HOT Thermal Workload,EEVDF-inspired,Core-ticks >= 60C,335
+off_throttled_core_ticks.png,off,Normal VR Workload,FCFS,Throttled Busy Core-ticks,0
+off_throttled_core_ticks.png,off,Normal VR Workload,Priority,Throttled Busy Core-ticks,0
+off_throttled_core_ticks.png,off,Normal VR Workload,Round Robin,Throttled Busy Core-ticks,0
+off_throttled_core_ticks.png,off,Normal VR Workload,ThermOS-VR,Throttled Busy Core-ticks,0
+off_throttled_core_ticks.png,off,Normal VR Workload,EDF-NP,Throttled Busy Core-ticks,0
+off_throttled_core_ticks.png,off,Normal VR Workload,EDF,Throttled Busy Core-ticks,0
+off_throttled_core_ticks.png,off,Normal VR Workload,TA-EDF,Throttled Busy Core-ticks,0
+off_throttled_core_ticks.png,off,Normal VR Workload,EEVDF-inspired,Throttled Busy Core-ticks,0
+off_throttled_core_ticks.png,off,Burst VR Workload,FCFS,Throttled Busy Core-ticks,0
+off_throttled_core_ticks.png,off,Burst VR Workload,Priority,Throttled Busy Core-ticks,0
+off_throttled_core_ticks.png,off,Burst VR Workload,Round Robin,Throttled Busy Core-ticks,0
+off_throttled_core_ticks.png,off,Burst VR Workload,ThermOS-VR,Throttled Busy Core-ticks,0
+off_throttled_core_ticks.png,off,Burst VR Workload,EDF-NP,Throttled Busy Core-ticks,0
+off_throttled_core_ticks.png,off,Burst VR Workload,EDF,Throttled Busy Core-ticks,0
+off_throttled_core_ticks.png,off,Burst VR Workload,TA-EDF,Throttled Busy Core-ticks,0
+off_throttled_core_ticks.png,off,Burst VR Workload,EEVDF-inspired,Throttled Busy Core-ticks,0
+off_throttled_core_ticks.png,off,Sustained Thermal Workload,FCFS,Throttled Busy Core-ticks,0
+off_throttled_core_ticks.png,off,Sustained Thermal Workload,Priority,Throttled Busy Core-ticks,0
+off_throttled_core_ticks.png,off,Sustained Thermal Workload,Round Robin,Throttled Busy Core-ticks,0
+off_throttled_core_ticks.png,off,Sustained Thermal Workload,ThermOS-VR,Throttled Busy Core-ticks,0
+off_throttled_core_ticks.png,off,Sustained Thermal Workload,EDF-NP,Throttled Busy Core-ticks,0
+off_throttled_core_ticks.png,off,Sustained Thermal Workload,EDF,Throttled Busy Core-ticks,0
+off_throttled_core_ticks.png,off,Sustained Thermal Workload,TA-EDF,Throttled Busy Core-ticks,0
+off_throttled_core_ticks.png,off,Sustained Thermal Workload,EEVDF-inspired,Throttled Busy Core-ticks,0
+off_throttled_core_ticks.png,off,HOT Thermal Workload,FCFS,Throttled Busy Core-ticks,0
+off_throttled_core_ticks.png,off,HOT Thermal Workload,Priority,Throttled Busy Core-ticks,0
+off_throttled_core_ticks.png,off,HOT Thermal Workload,Round Robin,Throttled Busy Core-ticks,0
+off_throttled_core_ticks.png,off,HOT Thermal Workload,ThermOS-VR,Throttled Busy Core-ticks,0
+off_throttled_core_ticks.png,off,HOT Thermal Workload,EDF-NP,Throttled Busy Core-ticks,0
+off_throttled_core_ticks.png,off,HOT Thermal Workload,EDF,Throttled Busy Core-ticks,0
+off_throttled_core_ticks.png,off,HOT Thermal Workload,TA-EDF,Throttled Busy Core-ticks,0
+off_throttled_core_ticks.png,off,HOT Thermal Workload,EEVDF-inspired,Throttled Busy Core-ticks,0
+off_heat_generated.png,off,Normal VR Workload,FCFS,Heat Generated (model units),18.2
+off_heat_generated.png,off,Normal VR Workload,Priority,Heat Generated (model units),18.2
+off_heat_generated.png,off,Normal VR Workload,Round Robin,Heat Generated (model units),18.2
+off_heat_generated.png,off,Normal VR Workload,ThermOS-VR,Heat Generated (model units),18.2
+off_heat_generated.png,off,Normal VR Workload,EDF-NP,Heat Generated (model units),18.2
+off_heat_generated.png,off,Normal VR Workload,EDF,Heat Generated (model units),18.2
+off_heat_generated.png,off,Normal VR Workload,TA-EDF,Heat Generated (model units),18.2
+off_heat_generated.png,off,Normal VR Workload,EEVDF-inspired,Heat Generated (model units),18.2
+off_heat_generated.png,off,Burst VR Workload,FCFS,Heat Generated (model units),58.0
+off_heat_generated.png,off,Burst VR Workload,Priority,Heat Generated (model units),58.0
+off_heat_generated.png,off,Burst VR Workload,Round Robin,Heat Generated (model units),58.0
+off_heat_generated.png,off,Burst VR Workload,ThermOS-VR,Heat Generated (model units),58.0
+off_heat_generated.png,off,Burst VR Workload,EDF-NP,Heat Generated (model units),58.0
+off_heat_generated.png,off,Burst VR Workload,EDF,Heat Generated (model units),58.0
+off_heat_generated.png,off,Burst VR Workload,TA-EDF,Heat Generated (model units),58.0
+off_heat_generated.png,off,Burst VR Workload,EEVDF-inspired,Heat Generated (model units),58.0
+off_heat_generated.png,off,Sustained Thermal Workload,FCFS,Heat Generated (model units),205.0
+off_heat_generated.png,off,Sustained Thermal Workload,Priority,Heat Generated (model units),205.0
+off_heat_generated.png,off,Sustained Thermal Workload,Round Robin,Heat Generated (model units),205.0
+off_heat_generated.png,off,Sustained Thermal Workload,ThermOS-VR,Heat Generated (model units),205.0
+off_heat_generated.png,off,Sustained Thermal Workload,EDF-NP,Heat Generated (model units),205.0
+off_heat_generated.png,off,Sustained Thermal Workload,EDF,Heat Generated (model units),205.0
+off_heat_generated.png,off,Sustained Thermal Workload,TA-EDF,Heat Generated (model units),205.0
+off_heat_generated.png,off,Sustained Thermal Workload,EEVDF-inspired,Heat Generated (model units),205.0
+off_heat_generated.png,off,HOT Thermal Workload,FCFS,Heat Generated (model units),359.25
+off_heat_generated.png,off,HOT Thermal Workload,Priority,Heat Generated (model units),359.25
+off_heat_generated.png,off,HOT Thermal Workload,Round Robin,Heat Generated (model units),359.25
+off_heat_generated.png,off,HOT Thermal Workload,ThermOS-VR,Heat Generated (model units),359.25
+off_heat_generated.png,off,HOT Thermal Workload,EDF-NP,Heat Generated (model units),359.25
+off_heat_generated.png,off,HOT Thermal Workload,EDF,Heat Generated (model units),359.25
+off_heat_generated.png,off,HOT Thermal Workload,TA-EDF,Heat Generated (model units),359.25
+off_heat_generated.png,off,HOT Thermal Workload,EEVDF-inspired,Heat Generated (model units),359.25
+off_utilization.png,off,Normal VR Workload,FCFS,Core-time Utilization (%),87.5
+off_utilization.png,off,Normal VR Workload,Priority,Core-time Utilization (%),93.33333333333331
+off_utilization.png,off,Normal VR Workload,Round Robin,Core-time Utilization (%),93.33333333333331
+off_utilization.png,off,Normal VR Workload,ThermOS-VR,Core-time Utilization (%),87.5
+off_utilization.png,off,Normal VR Workload,EDF-NP,Core-time Utilization (%),93.33333333333331
+off_utilization.png,off,Normal VR Workload,EDF,Core-time Utilization (%),93.33333333333331
+off_utilization.png,off,Normal VR Workload,TA-EDF,Core-time Utilization (%),93.33333333333331
+off_utilization.png,off,Normal VR Workload,EEVDF-inspired,Core-time Utilization (%),93.33333333333331
+off_utilization.png,off,Burst VR Workload,FCFS,Core-time Utilization (%),98.4375
+off_utilization.png,off,Burst VR Workload,Priority,Core-time Utilization (%),98.4375
+off_utilization.png,off,Burst VR Workload,Round Robin,Core-time Utilization (%),98.4375
+off_utilization.png,off,Burst VR Workload,ThermOS-VR,Core-time Utilization (%),98.4375
+off_utilization.png,off,Burst VR Workload,EDF-NP,Core-time Utilization (%),98.4375
+off_utilization.png,off,Burst VR Workload,EDF,Core-time Utilization (%),98.4375
+off_utilization.png,off,Burst VR Workload,TA-EDF,Core-time Utilization (%),98.4375
+off_utilization.png,off,Burst VR Workload,EEVDF-inspired,Core-time Utilization (%),92.64705882352942
+off_utilization.png,off,Sustained Thermal Workload,FCFS,Core-time Utilization (%),98.0
+off_utilization.png,off,Sustained Thermal Workload,Priority,Core-time Utilization (%),98.0
+off_utilization.png,off,Sustained Thermal Workload,Round Robin,Core-time Utilization (%),99.59349593495936
+off_utilization.png,off,Sustained Thermal Workload,ThermOS-VR,Core-time Utilization (%),98.0
+off_utilization.png,off,Sustained Thermal Workload,EDF-NP,Core-time Utilization (%),98.0
+off_utilization.png,off,Sustained Thermal Workload,EDF,Core-time Utilization (%),98.0
+off_utilization.png,off,Sustained Thermal Workload,TA-EDF,Core-time Utilization (%),98.0
+off_utilization.png,off,Sustained Thermal Workload,EEVDF-inspired,Core-time Utilization (%),92.10526315789474
+off_utilization.png,off,HOT Thermal Workload,FCFS,Core-time Utilization (%),98.78048780487804
+off_utilization.png,off,HOT Thermal Workload,Priority,Core-time Utilization (%),98.78048780487804
+off_utilization.png,off,HOT Thermal Workload,Round Robin,Core-time Utilization (%),99.75369458128078
+off_utilization.png,off,HOT Thermal Workload,ThermOS-VR,Core-time Utilization (%),98.78048780487804
+off_utilization.png,off,HOT Thermal Workload,EDF-NP,Core-time Utilization (%),98.78048780487804
+off_utilization.png,off,HOT Thermal Workload,EDF,Core-time Utilization (%),98.78048780487804
+off_utilization.png,off,HOT Thermal Workload,TA-EDF,Core-time Utilization (%),99.26470588235294
+off_utilization.png,off,HOT Thermal Workload,EEVDF-inspired,Core-time Utilization (%),90.40178571428572
+hysteresis_waiting_time.png,hysteresis,Normal VR Workload,FCFS,Average Waiting Time,3.5
+hysteresis_waiting_time.png,hysteresis,Normal VR Workload,Priority,Average Waiting Time,2.833333333333333
+hysteresis_waiting_time.png,hysteresis,Normal VR Workload,Round Robin,Average Waiting Time,4.333333333333333
+hysteresis_waiting_time.png,hysteresis,Normal VR Workload,ThermOS-VR,Average Waiting Time,3.5
+hysteresis_waiting_time.png,hysteresis,Normal VR Workload,EDF-NP,Average Waiting Time,2.833333333333333
+hysteresis_waiting_time.png,hysteresis,Normal VR Workload,EDF,Average Waiting Time,2.833333333333333
+hysteresis_waiting_time.png,hysteresis,Normal VR Workload,TA-EDF,Average Waiting Time,2.833333333333333
+hysteresis_waiting_time.png,hysteresis,Normal VR Workload,EEVDF-inspired,Average Waiting Time,3.8333333333333335
+hysteresis_waiting_time.png,hysteresis,Burst VR Workload,FCFS,Average Waiting Time,4.333333333333333
+hysteresis_waiting_time.png,hysteresis,Burst VR Workload,Priority,Average Waiting Time,4.333333333333333
+hysteresis_waiting_time.png,hysteresis,Burst VR Workload,Round Robin,Average Waiting Time,5.833333333333333
+hysteresis_waiting_time.png,hysteresis,Burst VR Workload,ThermOS-VR,Average Waiting Time,4.333333333333333
+hysteresis_waiting_time.png,hysteresis,Burst VR Workload,EDF-NP,Average Waiting Time,4.333333333333333
+hysteresis_waiting_time.png,hysteresis,Burst VR Workload,EDF,Average Waiting Time,3.0
+hysteresis_waiting_time.png,hysteresis,Burst VR Workload,TA-EDF,Average Waiting Time,3.0
+hysteresis_waiting_time.png,hysteresis,Burst VR Workload,EEVDF-inspired,Average Waiting Time,4.833333333333333
+hysteresis_waiting_time.png,hysteresis,Sustained Thermal Workload,FCFS,Average Waiting Time,48.833333333333336
+hysteresis_waiting_time.png,hysteresis,Sustained Thermal Workload,Priority,Average Waiting Time,47.333333333333336
+hysteresis_waiting_time.png,hysteresis,Sustained Thermal Workload,Round Robin,Average Waiting Time,71.66666666666667
+hysteresis_waiting_time.png,hysteresis,Sustained Thermal Workload,ThermOS-VR,Average Waiting Time,48.833333333333336
+hysteresis_waiting_time.png,hysteresis,Sustained Thermal Workload,EDF-NP,Average Waiting Time,42.833333333333336
+hysteresis_waiting_time.png,hysteresis,Sustained Thermal Workload,EDF,Average Waiting Time,41.333333333333336
+hysteresis_waiting_time.png,hysteresis,Sustained Thermal Workload,TA-EDF,Average Waiting Time,40.833333333333336
+hysteresis_waiting_time.png,hysteresis,Sustained Thermal Workload,EEVDF-inspired,Average Waiting Time,56.5
+hysteresis_waiting_time.png,hysteresis,HOT Thermal Workload,FCFS,Average Waiting Time,80.66666666666667
+hysteresis_waiting_time.png,hysteresis,HOT Thermal Workload,Priority,Average Waiting Time,80.66666666666667
+hysteresis_waiting_time.png,hysteresis,HOT Thermal Workload,Round Robin,Average Waiting Time,126.5
+hysteresis_waiting_time.png,hysteresis,HOT Thermal Workload,ThermOS-VR,Average Waiting Time,80.66666666666667
+hysteresis_waiting_time.png,hysteresis,HOT Thermal Workload,EDF-NP,Average Waiting Time,72.83333333333333
+hysteresis_waiting_time.png,hysteresis,HOT Thermal Workload,EDF,Average Waiting Time,69.5
+hysteresis_waiting_time.png,hysteresis,HOT Thermal Workload,TA-EDF,Average Waiting Time,69.16666666666667
+hysteresis_waiting_time.png,hysteresis,HOT Thermal Workload,EEVDF-inspired,Average Waiting Time,101.5
+hysteresis_turnaround_time.png,hysteresis,Normal VR Workload,FCFS,Average Turnaround Time,8.166666666666666
+hysteresis_turnaround_time.png,hysteresis,Normal VR Workload,Priority,Average Turnaround Time,7.5
+hysteresis_turnaround_time.png,hysteresis,Normal VR Workload,Round Robin,Average Turnaround Time,9.0
+hysteresis_turnaround_time.png,hysteresis,Normal VR Workload,ThermOS-VR,Average Turnaround Time,8.166666666666666
+hysteresis_turnaround_time.png,hysteresis,Normal VR Workload,EDF-NP,Average Turnaround Time,7.5
+hysteresis_turnaround_time.png,hysteresis,Normal VR Workload,EDF,Average Turnaround Time,7.5
+hysteresis_turnaround_time.png,hysteresis,Normal VR Workload,TA-EDF,Average Turnaround Time,7.5
+hysteresis_turnaround_time.png,hysteresis,Normal VR Workload,EEVDF-inspired,Average Turnaround Time,8.5
+hysteresis_turnaround_time.png,hysteresis,Burst VR Workload,FCFS,Average Turnaround Time,14.833333333333334
+hysteresis_turnaround_time.png,hysteresis,Burst VR Workload,Priority,Average Turnaround Time,14.833333333333334
+hysteresis_turnaround_time.png,hysteresis,Burst VR Workload,Round Robin,Average Turnaround Time,16.333333333333332
+hysteresis_turnaround_time.png,hysteresis,Burst VR Workload,ThermOS-VR,Average Turnaround Time,14.833333333333334
+hysteresis_turnaround_time.png,hysteresis,Burst VR Workload,EDF-NP,Average Turnaround Time,14.833333333333334
+hysteresis_turnaround_time.png,hysteresis,Burst VR Workload,EDF,Average Turnaround Time,13.5
+hysteresis_turnaround_time.png,hysteresis,Burst VR Workload,TA-EDF,Average Turnaround Time,13.5
+hysteresis_turnaround_time.png,hysteresis,Burst VR Workload,EEVDF-inspired,Average Turnaround Time,15.333333333333334
+hysteresis_turnaround_time.png,hysteresis,Sustained Thermal Workload,FCFS,Average Turnaround Time,93.0
+hysteresis_turnaround_time.png,hysteresis,Sustained Thermal Workload,Priority,Average Turnaround Time,91.33333333333331
+hysteresis_turnaround_time.png,hysteresis,Sustained Thermal Workload,Round Robin,Average Turnaround Time,115.16666666666669
+hysteresis_turnaround_time.png,hysteresis,Sustained Thermal Workload,ThermOS-VR,Average Turnaround Time,93.0
+hysteresis_turnaround_time.png,hysteresis,Sustained Thermal Workload,EDF-NP,Average Turnaround Time,86.33333333333333
+hysteresis_turnaround_time.png,hysteresis,Sustained Thermal Workload,EDF,Average Turnaround Time,85.16666666666667
+hysteresis_turnaround_time.png,hysteresis,Sustained Thermal Workload,TA-EDF,Average Turnaround Time,84.33333333333333
+hysteresis_turnaround_time.png,hysteresis,Sustained Thermal Workload,EEVDF-inspired,Average Turnaround Time,100.83333333333331
+hysteresis_turnaround_time.png,hysteresis,HOT Thermal Workload,FCFS,Average Turnaround Time,155.0
+hysteresis_turnaround_time.png,hysteresis,HOT Thermal Workload,Priority,Average Turnaround Time,155.0
+hysteresis_turnaround_time.png,hysteresis,HOT Thermal Workload,Round Robin,Average Turnaround Time,201.16666666666663
+hysteresis_turnaround_time.png,hysteresis,HOT Thermal Workload,ThermOS-VR,Average Turnaround Time,155.0
+hysteresis_turnaround_time.png,hysteresis,HOT Thermal Workload,EDF-NP,Average Turnaround Time,146.66666666666666
+hysteresis_turnaround_time.png,hysteresis,HOT Thermal Workload,EDF,Average Turnaround Time,143.33333333333334
+hysteresis_turnaround_time.png,hysteresis,HOT Thermal Workload,TA-EDF,Average Turnaround Time,143.33333333333334
+hysteresis_turnaround_time.png,hysteresis,HOT Thermal Workload,EEVDF-inspired,Average Turnaround Time,175.33333333333334
+hysteresis_completion_time.png,hysteresis,Normal VR Workload,FCFS,Average Completion Time,10.666666666666666
+hysteresis_completion_time.png,hysteresis,Normal VR Workload,Priority,Average Completion Time,10.0
+hysteresis_completion_time.png,hysteresis,Normal VR Workload,Round Robin,Average Completion Time,11.5
+hysteresis_completion_time.png,hysteresis,Normal VR Workload,ThermOS-VR,Average Completion Time,10.666666666666666
+hysteresis_completion_time.png,hysteresis,Normal VR Workload,EDF-NP,Average Completion Time,10.0
+hysteresis_completion_time.png,hysteresis,Normal VR Workload,EDF,Average Completion Time,10.0
+hysteresis_completion_time.png,hysteresis,Normal VR Workload,TA-EDF,Average Completion Time,10.0
+hysteresis_completion_time.png,hysteresis,Normal VR Workload,EEVDF-inspired,Average Completion Time,11.0
+hysteresis_completion_time.png,hysteresis,Burst VR Workload,FCFS,Average Completion Time,20.666666666666668
+hysteresis_completion_time.png,hysteresis,Burst VR Workload,Priority,Average Completion Time,20.666666666666668
+hysteresis_completion_time.png,hysteresis,Burst VR Workload,Round Robin,Average Completion Time,22.166666666666668
+hysteresis_completion_time.png,hysteresis,Burst VR Workload,ThermOS-VR,Average Completion Time,20.666666666666668
+hysteresis_completion_time.png,hysteresis,Burst VR Workload,EDF-NP,Average Completion Time,20.666666666666668
+hysteresis_completion_time.png,hysteresis,Burst VR Workload,EDF,Average Completion Time,19.33333333333333
+hysteresis_completion_time.png,hysteresis,Burst VR Workload,TA-EDF,Average Completion Time,19.33333333333333
+hysteresis_completion_time.png,hysteresis,Burst VR Workload,EEVDF-inspired,Average Completion Time,21.166666666666668
+hysteresis_completion_time.png,hysteresis,Sustained Thermal Workload,FCFS,Average Completion Time,95.5
+hysteresis_completion_time.png,hysteresis,Sustained Thermal Workload,Priority,Average Completion Time,93.83333333333331
+hysteresis_completion_time.png,hysteresis,Sustained Thermal Workload,Round Robin,Average Completion Time,117.66666666666669
+hysteresis_completion_time.png,hysteresis,Sustained Thermal Workload,ThermOS-VR,Average Completion Time,95.5
+hysteresis_completion_time.png,hysteresis,Sustained Thermal Workload,EDF-NP,Average Completion Time,88.83333333333333
+hysteresis_completion_time.png,hysteresis,Sustained Thermal Workload,EDF,Average Completion Time,87.66666666666667
+hysteresis_completion_time.png,hysteresis,Sustained Thermal Workload,TA-EDF,Average Completion Time,86.83333333333333
+hysteresis_completion_time.png,hysteresis,Sustained Thermal Workload,EEVDF-inspired,Average Completion Time,103.33333333333331
+hysteresis_completion_time.png,hysteresis,HOT Thermal Workload,FCFS,Average Completion Time,160.0
+hysteresis_completion_time.png,hysteresis,HOT Thermal Workload,Priority,Average Completion Time,160.0
+hysteresis_completion_time.png,hysteresis,HOT Thermal Workload,Round Robin,Average Completion Time,206.16666666666663
+hysteresis_completion_time.png,hysteresis,HOT Thermal Workload,ThermOS-VR,Average Completion Time,160.0
+hysteresis_completion_time.png,hysteresis,HOT Thermal Workload,EDF-NP,Average Completion Time,151.66666666666666
+hysteresis_completion_time.png,hysteresis,HOT Thermal Workload,EDF,Average Completion Time,148.33333333333334
+hysteresis_completion_time.png,hysteresis,HOT Thermal Workload,TA-EDF,Average Completion Time,148.33333333333334
+hysteresis_completion_time.png,hysteresis,HOT Thermal Workload,EEVDF-inspired,Average Completion Time,180.33333333333331
+hysteresis_deadline_misses.png,hysteresis,Normal VR Workload,FCFS,Deadline Misses,2
+hysteresis_deadline_misses.png,hysteresis,Normal VR Workload,Priority,Deadline Misses,1
+hysteresis_deadline_misses.png,hysteresis,Normal VR Workload,Round Robin,Deadline Misses,2
+hysteresis_deadline_misses.png,hysteresis,Normal VR Workload,ThermOS-VR,Deadline Misses,2
+hysteresis_deadline_misses.png,hysteresis,Normal VR Workload,EDF-NP,Deadline Misses,1
+hysteresis_deadline_misses.png,hysteresis,Normal VR Workload,EDF,Deadline Misses,1
+hysteresis_deadline_misses.png,hysteresis,Normal VR Workload,TA-EDF,Deadline Misses,1
+hysteresis_deadline_misses.png,hysteresis,Normal VR Workload,EEVDF-inspired,Deadline Misses,2
+hysteresis_deadline_misses.png,hysteresis,Burst VR Workload,FCFS,Deadline Misses,3
+hysteresis_deadline_misses.png,hysteresis,Burst VR Workload,Priority,Deadline Misses,3
+hysteresis_deadline_misses.png,hysteresis,Burst VR Workload,Round Robin,Deadline Misses,4
+hysteresis_deadline_misses.png,hysteresis,Burst VR Workload,ThermOS-VR,Deadline Misses,3
+hysteresis_deadline_misses.png,hysteresis,Burst VR Workload,EDF-NP,Deadline Misses,3
+hysteresis_deadline_misses.png,hysteresis,Burst VR Workload,EDF,Deadline Misses,2
+hysteresis_deadline_misses.png,hysteresis,Burst VR Workload,TA-EDF,Deadline Misses,2
+hysteresis_deadline_misses.png,hysteresis,Burst VR Workload,EEVDF-inspired,Deadline Misses,4
+hysteresis_deadline_misses.png,hysteresis,Sustained Thermal Workload,FCFS,Deadline Misses,4
+hysteresis_deadline_misses.png,hysteresis,Sustained Thermal Workload,Priority,Deadline Misses,4
+hysteresis_deadline_misses.png,hysteresis,Sustained Thermal Workload,Round Robin,Deadline Misses,6
+hysteresis_deadline_misses.png,hysteresis,Sustained Thermal Workload,ThermOS-VR,Deadline Misses,4
+hysteresis_deadline_misses.png,hysteresis,Sustained Thermal Workload,EDF-NP,Deadline Misses,4
+hysteresis_deadline_misses.png,hysteresis,Sustained Thermal Workload,EDF,Deadline Misses,4
+hysteresis_deadline_misses.png,hysteresis,Sustained Thermal Workload,TA-EDF,Deadline Misses,4
+hysteresis_deadline_misses.png,hysteresis,Sustained Thermal Workload,EEVDF-inspired,Deadline Misses,6
+hysteresis_deadline_misses.png,hysteresis,HOT Thermal Workload,FCFS,Deadline Misses,4
+hysteresis_deadline_misses.png,hysteresis,HOT Thermal Workload,Priority,Deadline Misses,4
+hysteresis_deadline_misses.png,hysteresis,HOT Thermal Workload,Round Robin,Deadline Misses,6
+hysteresis_deadline_misses.png,hysteresis,HOT Thermal Workload,ThermOS-VR,Deadline Misses,4
+hysteresis_deadline_misses.png,hysteresis,HOT Thermal Workload,EDF-NP,Deadline Misses,4
+hysteresis_deadline_misses.png,hysteresis,HOT Thermal Workload,EDF,Deadline Misses,4
+hysteresis_deadline_misses.png,hysteresis,HOT Thermal Workload,TA-EDF,Deadline Misses,4
+hysteresis_deadline_misses.png,hysteresis,HOT Thermal Workload,EEVDF-inspired,Deadline Misses,6
+hysteresis_total_tardiness.png,hysteresis,Normal VR Workload,FCFS,Total Tardiness,2
+hysteresis_total_tardiness.png,hysteresis,Normal VR Workload,Priority,Total Tardiness,2
+hysteresis_total_tardiness.png,hysteresis,Normal VR Workload,Round Robin,Total Tardiness,5
+hysteresis_total_tardiness.png,hysteresis,Normal VR Workload,ThermOS-VR,Total Tardiness,2
+hysteresis_total_tardiness.png,hysteresis,Normal VR Workload,EDF-NP,Total Tardiness,2
+hysteresis_total_tardiness.png,hysteresis,Normal VR Workload,EDF,Total Tardiness,2
+hysteresis_total_tardiness.png,hysteresis,Normal VR Workload,TA-EDF,Total Tardiness,2
+hysteresis_total_tardiness.png,hysteresis,Normal VR Workload,EEVDF-inspired,Total Tardiness,3
+hysteresis_total_tardiness.png,hysteresis,Burst VR Workload,FCFS,Total Tardiness,23
+hysteresis_total_tardiness.png,hysteresis,Burst VR Workload,Priority,Total Tardiness,23
+hysteresis_total_tardiness.png,hysteresis,Burst VR Workload,Round Robin,Total Tardiness,30
+hysteresis_total_tardiness.png,hysteresis,Burst VR Workload,ThermOS-VR,Total Tardiness,23
+hysteresis_total_tardiness.png,hysteresis,Burst VR Workload,EDF-NP,Total Tardiness,23
+hysteresis_total_tardiness.png,hysteresis,Burst VR Workload,EDF,Total Tardiness,17
+hysteresis_total_tardiness.png,hysteresis,Burst VR Workload,TA-EDF,Total Tardiness,17
+hysteresis_total_tardiness.png,hysteresis,Burst VR Workload,EEVDF-inspired,Total Tardiness,24
+hysteresis_total_tardiness.png,hysteresis,Sustained Thermal Workload,FCFS,Total Tardiness,253
+hysteresis_total_tardiness.png,hysteresis,Sustained Thermal Workload,Priority,Total Tardiness,247
+hysteresis_total_tardiness.png,hysteresis,Sustained Thermal Workload,Round Robin,Total Tardiness,378
+hysteresis_total_tardiness.png,hysteresis,Sustained Thermal Workload,ThermOS-VR,Total Tardiness,253
+hysteresis_total_tardiness.png,hysteresis,Sustained Thermal Workload,EDF-NP,Total Tardiness,217
+hysteresis_total_tardiness.png,hysteresis,Sustained Thermal Workload,EDF,Total Tardiness,210
+hysteresis_total_tardiness.png,hysteresis,Sustained Thermal Workload,TA-EDF,Total Tardiness,208
+hysteresis_total_tardiness.png,hysteresis,Sustained Thermal Workload,EEVDF-inspired,Total Tardiness,292
+hysteresis_total_tardiness.png,hysteresis,HOT Thermal Workload,FCFS,Total Tardiness,431
+hysteresis_total_tardiness.png,hysteresis,HOT Thermal Workload,Priority,Total Tardiness,431
+hysteresis_total_tardiness.png,hysteresis,HOT Thermal Workload,Round Robin,Total Tardiness,697
+hysteresis_total_tardiness.png,hysteresis,HOT Thermal Workload,ThermOS-VR,Total Tardiness,431
+hysteresis_total_tardiness.png,hysteresis,HOT Thermal Workload,EDF-NP,Total Tardiness,383
+hysteresis_total_tardiness.png,hysteresis,HOT Thermal Workload,EDF,Total Tardiness,368
+hysteresis_total_tardiness.png,hysteresis,HOT Thermal Workload,TA-EDF,Total Tardiness,369
+hysteresis_total_tardiness.png,hysteresis,HOT Thermal Workload,EEVDF-inspired,Total Tardiness,542
+hysteresis_average_temperature.png,hysteresis,Normal VR Workload,FCFS,Average Temperature,47.18510421794115
+hysteresis_average_temperature.png,hysteresis,Normal VR Workload,Priority,Average Temperature,47.00796347641154
+hysteresis_average_temperature.png,hysteresis,Normal VR Workload,Round Robin,Average Temperature,46.86790199069661
+hysteresis_average_temperature.png,hysteresis,Normal VR Workload,ThermOS-VR,Average Temperature,47.18510421794115
+hysteresis_average_temperature.png,hysteresis,Normal VR Workload,EDF-NP,Average Temperature,47.00796347641154
+hysteresis_average_temperature.png,hysteresis,Normal VR Workload,EDF,Average Temperature,47.00796347641154
+hysteresis_average_temperature.png,hysteresis,Normal VR Workload,TA-EDF,Average Temperature,47.00796347641154
+hysteresis_average_temperature.png,hysteresis,Normal VR Workload,EEVDF-inspired,Average Temperature,46.98493351809922
+hysteresis_average_temperature.png,hysteresis,Burst VR Workload,FCFS,Average Temperature,52.28962999726585
+hysteresis_average_temperature.png,hysteresis,Burst VR Workload,Priority,Average Temperature,52.28962999726585
+hysteresis_average_temperature.png,hysteresis,Burst VR Workload,Round Robin,Average Temperature,52.01615270803234
+hysteresis_average_temperature.png,hysteresis,Burst VR Workload,ThermOS-VR,Average Temperature,52.28962999726585
+hysteresis_average_temperature.png,hysteresis,Burst VR Workload,EDF-NP,Average Temperature,52.28962999726585
+hysteresis_average_temperature.png,hysteresis,Burst VR Workload,EDF,Average Temperature,51.86924800694271
+hysteresis_average_temperature.png,hysteresis,Burst VR Workload,TA-EDF,Average Temperature,51.86924800694271
+hysteresis_average_temperature.png,hysteresis,Burst VR Workload,EEVDF-inspired,Average Temperature,52.20423680923027
+hysteresis_average_temperature.png,hysteresis,Sustained Thermal Workload,FCFS,Average Temperature,57.67203955942019
+hysteresis_average_temperature.png,hysteresis,Sustained Thermal Workload,Priority,Average Temperature,57.706001419364966
+hysteresis_average_temperature.png,hysteresis,Sustained Thermal Workload,Round Robin,Average Temperature,56.79900029079493
+hysteresis_average_temperature.png,hysteresis,Sustained Thermal Workload,ThermOS-VR,Average Temperature,57.67203955942019
+hysteresis_average_temperature.png,hysteresis,Sustained Thermal Workload,EDF-NP,Average Temperature,57.65372606123709
+hysteresis_average_temperature.png,hysteresis,Sustained Thermal Workload,EDF,Average Temperature,56.99432759720524
+hysteresis_average_temperature.png,hysteresis,Sustained Thermal Workload,TA-EDF,Average Temperature,56.8745372813967
+hysteresis_average_temperature.png,hysteresis,Sustained Thermal Workload,EEVDF-inspired,Average Temperature,57.12227116521333
+hysteresis_average_temperature.png,hysteresis,HOT Thermal Workload,FCFS,Average Temperature,59.55260646726614
+hysteresis_average_temperature.png,hysteresis,HOT Thermal Workload,Priority,Average Temperature,59.55260646726614
+hysteresis_average_temperature.png,hysteresis,HOT Thermal Workload,Round Robin,Average Temperature,58.29931913636746
+hysteresis_average_temperature.png,hysteresis,HOT Thermal Workload,ThermOS-VR,Average Temperature,59.55260646726614
+hysteresis_average_temperature.png,hysteresis,HOT Thermal Workload,EDF-NP,Average Temperature,59.31392426034497
+hysteresis_average_temperature.png,hysteresis,HOT Thermal Workload,EDF,Average Temperature,59.16453069025351
+hysteresis_average_temperature.png,hysteresis,HOT Thermal Workload,TA-EDF,Average Temperature,58.91661604506017
+hysteresis_average_temperature.png,hysteresis,HOT Thermal Workload,EEVDF-inspired,Average Temperature,58.462578450169936
+hysteresis_peak_temperature.png,hysteresis,Normal VR Workload,FCFS,Peak Temperature,49.09959623125509
+hysteresis_peak_temperature.png,hysteresis,Normal VR Workload,Priority,Peak Temperature,50.58816336744743
+hysteresis_peak_temperature.png,hysteresis,Normal VR Workload,Round Robin,Peak Temperature,48.20218665088495
+hysteresis_peak_temperature.png,hysteresis,Normal VR Workload,ThermOS-VR,Peak Temperature,49.09959623125509
+hysteresis_peak_temperature.png,hysteresis,Normal VR Workload,EDF-NP,Peak Temperature,50.58816336744743
+hysteresis_peak_temperature.png,hysteresis,Normal VR Workload,EDF,Peak Temperature,50.58816336744743
+hysteresis_peak_temperature.png,hysteresis,Normal VR Workload,TA-EDF,Peak Temperature,48.0960742884129
+hysteresis_peak_temperature.png,hysteresis,Normal VR Workload,EEVDF-inspired,Peak Temperature,50.40737920808741
+hysteresis_peak_temperature.png,hysteresis,Burst VR Workload,FCFS,Peak Temperature,57.23595961308088
+hysteresis_peak_temperature.png,hysteresis,Burst VR Workload,Priority,Peak Temperature,57.23595961308088
+hysteresis_peak_temperature.png,hysteresis,Burst VR Workload,Round Robin,Peak Temperature,57.65487642594452
+hysteresis_peak_temperature.png,hysteresis,Burst VR Workload,ThermOS-VR,Peak Temperature,57.23595961308088
+hysteresis_peak_temperature.png,hysteresis,Burst VR Workload,EDF-NP,Peak Temperature,57.23595961308088
+hysteresis_peak_temperature.png,hysteresis,Burst VR Workload,EDF,Peak Temperature,57.5806636178619
+hysteresis_peak_temperature.png,hysteresis,Burst VR Workload,TA-EDF,Peak Temperature,57.50005442128635
+hysteresis_peak_temperature.png,hysteresis,Burst VR Workload,EEVDF-inspired,Peak Temperature,58.1595984007889
+hysteresis_peak_temperature.png,hysteresis,Sustained Thermal Workload,FCFS,Peak Temperature,61.278518845850726
+hysteresis_peak_temperature.png,hysteresis,Sustained Thermal Workload,Priority,Peak Temperature,61.278518845850726
+hysteresis_peak_temperature.png,hysteresis,Sustained Thermal Workload,Round Robin,Peak Temperature,60.2526858746994
+hysteresis_peak_temperature.png,hysteresis,Sustained Thermal Workload,ThermOS-VR,Peak Temperature,61.278518845850726
+hysteresis_peak_temperature.png,hysteresis,Sustained Thermal Workload,EDF-NP,Peak Temperature,61.278518845850726
+hysteresis_peak_temperature.png,hysteresis,Sustained Thermal Workload,EDF,Peak Temperature,61.278518845850726
+hysteresis_peak_temperature.png,hysteresis,Sustained Thermal Workload,TA-EDF,Peak Temperature,60.235061537229655
+hysteresis_peak_temperature.png,hysteresis,Sustained Thermal Workload,EEVDF-inspired,Peak Temperature,61.395031558161065
+hysteresis_peak_temperature.png,hysteresis,HOT Thermal Workload,FCFS,Peak Temperature,62.49159959813434
+hysteresis_peak_temperature.png,hysteresis,HOT Thermal Workload,Priority,Peak Temperature,62.49159959813434
+hysteresis_peak_temperature.png,hysteresis,HOT Thermal Workload,Round Robin,Peak Temperature,61.02157490262979
+hysteresis_peak_temperature.png,hysteresis,HOT Thermal Workload,ThermOS-VR,Peak Temperature,62.49159959813434
+hysteresis_peak_temperature.png,hysteresis,HOT Thermal Workload,EDF-NP,Peak Temperature,63.11162470759092
+hysteresis_peak_temperature.png,hysteresis,HOT Thermal Workload,EDF,Peak Temperature,63.33212102189662
+hysteresis_peak_temperature.png,hysteresis,HOT Thermal Workload,TA-EDF,Peak Temperature,62.34145613319914
+hysteresis_peak_temperature.png,hysteresis,HOT Thermal Workload,EEVDF-inspired,Peak Temperature,62.880926382631046
+hysteresis_thermal_exposure.png,hysteresis,Normal VR Workload,FCFS,Thermal Exposure (HOT core-ticks),0
+hysteresis_thermal_exposure.png,hysteresis,Normal VR Workload,Priority,Thermal Exposure (HOT core-ticks),0
+hysteresis_thermal_exposure.png,hysteresis,Normal VR Workload,Round Robin,Thermal Exposure (HOT core-ticks),0
+hysteresis_thermal_exposure.png,hysteresis,Normal VR Workload,ThermOS-VR,Thermal Exposure (HOT core-ticks),0
+hysteresis_thermal_exposure.png,hysteresis,Normal VR Workload,EDF-NP,Thermal Exposure (HOT core-ticks),0
+hysteresis_thermal_exposure.png,hysteresis,Normal VR Workload,EDF,Thermal Exposure (HOT core-ticks),0
+hysteresis_thermal_exposure.png,hysteresis,Normal VR Workload,TA-EDF,Thermal Exposure (HOT core-ticks),0
+hysteresis_thermal_exposure.png,hysteresis,Normal VR Workload,EEVDF-inspired,Thermal Exposure (HOT core-ticks),0
+hysteresis_thermal_exposure.png,hysteresis,Burst VR Workload,FCFS,Thermal Exposure (HOT core-ticks),0
+hysteresis_thermal_exposure.png,hysteresis,Burst VR Workload,Priority,Thermal Exposure (HOT core-ticks),0
+hysteresis_thermal_exposure.png,hysteresis,Burst VR Workload,Round Robin,Thermal Exposure (HOT core-ticks),0
+hysteresis_thermal_exposure.png,hysteresis,Burst VR Workload,ThermOS-VR,Thermal Exposure (HOT core-ticks),0
+hysteresis_thermal_exposure.png,hysteresis,Burst VR Workload,EDF-NP,Thermal Exposure (HOT core-ticks),0
+hysteresis_thermal_exposure.png,hysteresis,Burst VR Workload,EDF,Thermal Exposure (HOT core-ticks),0
+hysteresis_thermal_exposure.png,hysteresis,Burst VR Workload,TA-EDF,Thermal Exposure (HOT core-ticks),0
+hysteresis_thermal_exposure.png,hysteresis,Burst VR Workload,EEVDF-inspired,Thermal Exposure (HOT core-ticks),0
+hysteresis_thermal_exposure.png,hysteresis,Sustained Thermal Workload,FCFS,Thermal Exposure (HOT core-ticks),0
+hysteresis_thermal_exposure.png,hysteresis,Sustained Thermal Workload,Priority,Thermal Exposure (HOT core-ticks),0
+hysteresis_thermal_exposure.png,hysteresis,Sustained Thermal Workload,Round Robin,Thermal Exposure (HOT core-ticks),0
+hysteresis_thermal_exposure.png,hysteresis,Sustained Thermal Workload,ThermOS-VR,Thermal Exposure (HOT core-ticks),0
+hysteresis_thermal_exposure.png,hysteresis,Sustained Thermal Workload,EDF-NP,Thermal Exposure (HOT core-ticks),0
+hysteresis_thermal_exposure.png,hysteresis,Sustained Thermal Workload,EDF,Thermal Exposure (HOT core-ticks),0
+hysteresis_thermal_exposure.png,hysteresis,Sustained Thermal Workload,TA-EDF,Thermal Exposure (HOT core-ticks),0
+hysteresis_thermal_exposure.png,hysteresis,Sustained Thermal Workload,EEVDF-inspired,Thermal Exposure (HOT core-ticks),0
+hysteresis_thermal_exposure.png,hysteresis,HOT Thermal Workload,FCFS,Thermal Exposure (HOT core-ticks),0
+hysteresis_thermal_exposure.png,hysteresis,HOT Thermal Workload,Priority,Thermal Exposure (HOT core-ticks),0
+hysteresis_thermal_exposure.png,hysteresis,HOT Thermal Workload,Round Robin,Thermal Exposure (HOT core-ticks),0
+hysteresis_thermal_exposure.png,hysteresis,HOT Thermal Workload,ThermOS-VR,Thermal Exposure (HOT core-ticks),0
+hysteresis_thermal_exposure.png,hysteresis,HOT Thermal Workload,EDF-NP,Thermal Exposure (HOT core-ticks),0
+hysteresis_thermal_exposure.png,hysteresis,HOT Thermal Workload,EDF,Thermal Exposure (HOT core-ticks),0
+hysteresis_thermal_exposure.png,hysteresis,HOT Thermal Workload,TA-EDF,Thermal Exposure (HOT core-ticks),0
+hysteresis_thermal_exposure.png,hysteresis,HOT Thermal Workload,EEVDF-inspired,Thermal Exposure (HOT core-ticks),0
+hysteresis_core_ticks_above_60c.png,hysteresis,Normal VR Workload,FCFS,Core-ticks >= 60C,0
+hysteresis_core_ticks_above_60c.png,hysteresis,Normal VR Workload,Priority,Core-ticks >= 60C,0
+hysteresis_core_ticks_above_60c.png,hysteresis,Normal VR Workload,Round Robin,Core-ticks >= 60C,0
+hysteresis_core_ticks_above_60c.png,hysteresis,Normal VR Workload,ThermOS-VR,Core-ticks >= 60C,0
+hysteresis_core_ticks_above_60c.png,hysteresis,Normal VR Workload,EDF-NP,Core-ticks >= 60C,0
+hysteresis_core_ticks_above_60c.png,hysteresis,Normal VR Workload,EDF,Core-ticks >= 60C,0
+hysteresis_core_ticks_above_60c.png,hysteresis,Normal VR Workload,TA-EDF,Core-ticks >= 60C,0
+hysteresis_core_ticks_above_60c.png,hysteresis,Normal VR Workload,EEVDF-inspired,Core-ticks >= 60C,0
+hysteresis_core_ticks_above_60c.png,hysteresis,Burst VR Workload,FCFS,Core-ticks >= 60C,0
+hysteresis_core_ticks_above_60c.png,hysteresis,Burst VR Workload,Priority,Core-ticks >= 60C,0
+hysteresis_core_ticks_above_60c.png,hysteresis,Burst VR Workload,Round Robin,Core-ticks >= 60C,0
+hysteresis_core_ticks_above_60c.png,hysteresis,Burst VR Workload,ThermOS-VR,Core-ticks >= 60C,0
+hysteresis_core_ticks_above_60c.png,hysteresis,Burst VR Workload,EDF-NP,Core-ticks >= 60C,0
+hysteresis_core_ticks_above_60c.png,hysteresis,Burst VR Workload,EDF,Core-ticks >= 60C,0
+hysteresis_core_ticks_above_60c.png,hysteresis,Burst VR Workload,TA-EDF,Core-ticks >= 60C,0
+hysteresis_core_ticks_above_60c.png,hysteresis,Burst VR Workload,EEVDF-inspired,Core-ticks >= 60C,0
+hysteresis_core_ticks_above_60c.png,hysteresis,Sustained Thermal Workload,FCFS,Core-ticks >= 60C,107
+hysteresis_core_ticks_above_60c.png,hysteresis,Sustained Thermal Workload,Priority,Core-ticks >= 60C,102
+hysteresis_core_ticks_above_60c.png,hysteresis,Sustained Thermal Workload,Round Robin,Core-ticks >= 60C,5
+hysteresis_core_ticks_above_60c.png,hysteresis,Sustained Thermal Workload,ThermOS-VR,Core-ticks >= 60C,107
+hysteresis_core_ticks_above_60c.png,hysteresis,Sustained Thermal Workload,EDF-NP,Core-ticks >= 60C,90
+hysteresis_core_ticks_above_60c.png,hysteresis,Sustained Thermal Workload,EDF,Core-ticks >= 60C,108
+hysteresis_core_ticks_above_60c.png,hysteresis,Sustained Thermal Workload,TA-EDF,Core-ticks >= 60C,28
+hysteresis_core_ticks_above_60c.png,hysteresis,Sustained Thermal Workload,EEVDF-inspired,Core-ticks >= 60C,77
+hysteresis_core_ticks_above_60c.png,hysteresis,HOT Thermal Workload,FCFS,Core-ticks >= 60C,281
+hysteresis_core_ticks_above_60c.png,hysteresis,HOT Thermal Workload,Priority,Core-ticks >= 60C,281
+hysteresis_core_ticks_above_60c.png,hysteresis,HOT Thermal Workload,Round Robin,Core-ticks >= 60C,49
+hysteresis_core_ticks_above_60c.png,hysteresis,HOT Thermal Workload,ThermOS-VR,Core-ticks >= 60C,281
+hysteresis_core_ticks_above_60c.png,hysteresis,HOT Thermal Workload,EDF-NP,Core-ticks >= 60C,269
+hysteresis_core_ticks_above_60c.png,hysteresis,HOT Thermal Workload,EDF,Core-ticks >= 60C,286
+hysteresis_core_ticks_above_60c.png,hysteresis,HOT Thermal Workload,TA-EDF,Core-ticks >= 60C,257
+hysteresis_core_ticks_above_60c.png,hysteresis,HOT Thermal Workload,EEVDF-inspired,Core-ticks >= 60C,282
+hysteresis_throttled_core_ticks.png,hysteresis,Normal VR Workload,FCFS,Throttled Busy Core-ticks,0
+hysteresis_throttled_core_ticks.png,hysteresis,Normal VR Workload,Priority,Throttled Busy Core-ticks,0
+hysteresis_throttled_core_ticks.png,hysteresis,Normal VR Workload,Round Robin,Throttled Busy Core-ticks,0
+hysteresis_throttled_core_ticks.png,hysteresis,Normal VR Workload,ThermOS-VR,Throttled Busy Core-ticks,0
+hysteresis_throttled_core_ticks.png,hysteresis,Normal VR Workload,EDF-NP,Throttled Busy Core-ticks,0
+hysteresis_throttled_core_ticks.png,hysteresis,Normal VR Workload,EDF,Throttled Busy Core-ticks,0
+hysteresis_throttled_core_ticks.png,hysteresis,Normal VR Workload,TA-EDF,Throttled Busy Core-ticks,0
+hysteresis_throttled_core_ticks.png,hysteresis,Normal VR Workload,EEVDF-inspired,Throttled Busy Core-ticks,0
+hysteresis_throttled_core_ticks.png,hysteresis,Burst VR Workload,FCFS,Throttled Busy Core-ticks,0
+hysteresis_throttled_core_ticks.png,hysteresis,Burst VR Workload,Priority,Throttled Busy Core-ticks,0
+hysteresis_throttled_core_ticks.png,hysteresis,Burst VR Workload,Round Robin,Throttled Busy Core-ticks,0
+hysteresis_throttled_core_ticks.png,hysteresis,Burst VR Workload,ThermOS-VR,Throttled Busy Core-ticks,0
+hysteresis_throttled_core_ticks.png,hysteresis,Burst VR Workload,EDF-NP,Throttled Busy Core-ticks,0
+hysteresis_throttled_core_ticks.png,hysteresis,Burst VR Workload,EDF,Throttled Busy Core-ticks,0
+hysteresis_throttled_core_ticks.png,hysteresis,Burst VR Workload,TA-EDF,Throttled Busy Core-ticks,0
+hysteresis_throttled_core_ticks.png,hysteresis,Burst VR Workload,EEVDF-inspired,Throttled Busy Core-ticks,0
+hysteresis_throttled_core_ticks.png,hysteresis,Sustained Thermal Workload,FCFS,Throttled Busy Core-ticks,142
+hysteresis_throttled_core_ticks.png,hysteresis,Sustained Thermal Workload,Priority,Throttled Busy Core-ticks,137
+hysteresis_throttled_core_ticks.png,hysteresis,Sustained Thermal Workload,Round Robin,Throttled Busy Core-ticks,123
+hysteresis_throttled_core_ticks.png,hysteresis,Sustained Thermal Workload,ThermOS-VR,Throttled Busy Core-ticks,142
+hysteresis_throttled_core_ticks.png,hysteresis,Sustained Thermal Workload,EDF-NP,Throttled Busy Core-ticks,116
+hysteresis_throttled_core_ticks.png,hysteresis,Sustained Thermal Workload,EDF,Throttled Busy Core-ticks,134
+hysteresis_throttled_core_ticks.png,hysteresis,Sustained Thermal Workload,TA-EDF,Throttled Busy Core-ticks,123
+hysteresis_throttled_core_ticks.png,hysteresis,Sustained Thermal Workload,EEVDF-inspired,Throttled Busy Core-ticks,146
+hysteresis_throttled_core_ticks.png,hysteresis,HOT Thermal Workload,FCFS,Throttled Busy Core-ticks,304
+hysteresis_throttled_core_ticks.png,hysteresis,HOT Thermal Workload,Priority,Throttled Busy Core-ticks,304
+hysteresis_throttled_core_ticks.png,hysteresis,HOT Thermal Workload,Round Robin,Throttled Busy Core-ticks,338
+hysteresis_throttled_core_ticks.png,hysteresis,HOT Thermal Workload,ThermOS-VR,Throttled Busy Core-ticks,304
+hysteresis_throttled_core_ticks.png,hysteresis,HOT Thermal Workload,EDF-NP,Throttled Busy Core-ticks,291
+hysteresis_throttled_core_ticks.png,hysteresis,HOT Thermal Workload,EDF,Throttled Busy Core-ticks,294
+hysteresis_throttled_core_ticks.png,hysteresis,HOT Thermal Workload,TA-EDF,Throttled Busy Core-ticks,321
+hysteresis_throttled_core_ticks.png,hysteresis,HOT Thermal Workload,EEVDF-inspired,Throttled Busy Core-ticks,294
+hysteresis_heat_generated.png,hysteresis,Normal VR Workload,FCFS,Heat Generated (model units),18.2
+hysteresis_heat_generated.png,hysteresis,Normal VR Workload,Priority,Heat Generated (model units),18.2
+hysteresis_heat_generated.png,hysteresis,Normal VR Workload,Round Robin,Heat Generated (model units),18.2
+hysteresis_heat_generated.png,hysteresis,Normal VR Workload,ThermOS-VR,Heat Generated (model units),18.2
+hysteresis_heat_generated.png,hysteresis,Normal VR Workload,EDF-NP,Heat Generated (model units),18.2
+hysteresis_heat_generated.png,hysteresis,Normal VR Workload,EDF,Heat Generated (model units),18.2
+hysteresis_heat_generated.png,hysteresis,Normal VR Workload,TA-EDF,Heat Generated (model units),18.2
+hysteresis_heat_generated.png,hysteresis,Normal VR Workload,EEVDF-inspired,Heat Generated (model units),18.2
+hysteresis_heat_generated.png,hysteresis,Burst VR Workload,FCFS,Heat Generated (model units),58.0
+hysteresis_heat_generated.png,hysteresis,Burst VR Workload,Priority,Heat Generated (model units),58.0
+hysteresis_heat_generated.png,hysteresis,Burst VR Workload,Round Robin,Heat Generated (model units),58.0
+hysteresis_heat_generated.png,hysteresis,Burst VR Workload,ThermOS-VR,Heat Generated (model units),58.0
+hysteresis_heat_generated.png,hysteresis,Burst VR Workload,EDF-NP,Heat Generated (model units),58.0
+hysteresis_heat_generated.png,hysteresis,Burst VR Workload,EDF,Heat Generated (model units),58.0
+hysteresis_heat_generated.png,hysteresis,Burst VR Workload,TA-EDF,Heat Generated (model units),58.0
+hysteresis_heat_generated.png,hysteresis,Burst VR Workload,EEVDF-inspired,Heat Generated (model units),58.0
+hysteresis_heat_generated.png,hysteresis,Sustained Thermal Workload,FCFS,Heat Generated (model units),194.67376
+hysteresis_heat_generated.png,hysteresis,Sustained Thermal Workload,Priority,Heat Generated (model units),194.41336
+hysteresis_heat_generated.png,hysteresis,Sustained Thermal Workload,Round Robin,Heat Generated (model units),194.75592000000003
+hysteresis_heat_generated.png,hysteresis,Sustained Thermal Workload,ThermOS-VR,Heat Generated (model units),194.67376
+hysteresis_heat_generated.png,hysteresis,Sustained Thermal Workload,EDF-NP,Heat Generated (model units),195.7812
+hysteresis_heat_generated.png,hysteresis,Sustained Thermal Workload,EDF,Heat Generated (model units),193.86368
+hysteresis_heat_generated.png,hysteresis,Sustained Thermal Workload,TA-EDF,Heat Generated (model units),195.04888000000005
+hysteresis_heat_generated.png,hysteresis,Sustained Thermal Workload,EEVDF-inspired,Heat Generated (model units),194.38568
+hysteresis_heat_generated.png,hysteresis,HOT Thermal Workload,FCFS,Heat Generated (model units),333.47712000000007
+hysteresis_heat_generated.png,hysteresis,HOT Thermal Workload,Priority,Heat Generated (model units),333.47712000000007
+hysteresis_heat_generated.png,hysteresis,HOT Thermal Workload,Round Robin,Heat Generated (model units),329.71512000000007
+hysteresis_heat_generated.png,hysteresis,HOT Thermal Workload,ThermOS-VR,Heat Generated (model units),333.47712000000007
+hysteresis_heat_generated.png,hysteresis,HOT Thermal Workload,EDF-NP,Heat Generated (model units),333.32032000000004
+hysteresis_heat_generated.png,hysteresis,HOT Thermal Workload,EDF,Heat Generated (model units),332.19784000000004
+hysteresis_heat_generated.png,hysteresis,HOT Thermal Workload,TA-EDF,Heat Generated (model units),329.94216000000006
+hysteresis_heat_generated.png,hysteresis,HOT Thermal Workload,EEVDF-inspired,Heat Generated (model units),332.38896000000005
+hysteresis_utilization.png,hysteresis,Normal VR Workload,FCFS,Core-time Utilization (%),87.5
+hysteresis_utilization.png,hysteresis,Normal VR Workload,Priority,Core-time Utilization (%),93.33333333333331
+hysteresis_utilization.png,hysteresis,Normal VR Workload,Round Robin,Core-time Utilization (%),93.33333333333331
+hysteresis_utilization.png,hysteresis,Normal VR Workload,ThermOS-VR,Core-time Utilization (%),87.5
+hysteresis_utilization.png,hysteresis,Normal VR Workload,EDF-NP,Core-time Utilization (%),93.33333333333331
+hysteresis_utilization.png,hysteresis,Normal VR Workload,EDF,Core-time Utilization (%),93.33333333333331
+hysteresis_utilization.png,hysteresis,Normal VR Workload,TA-EDF,Core-time Utilization (%),93.33333333333331
+hysteresis_utilization.png,hysteresis,Normal VR Workload,EEVDF-inspired,Core-time Utilization (%),93.33333333333331
+hysteresis_utilization.png,hysteresis,Burst VR Workload,FCFS,Core-time Utilization (%),98.4375
+hysteresis_utilization.png,hysteresis,Burst VR Workload,Priority,Core-time Utilization (%),98.4375
+hysteresis_utilization.png,hysteresis,Burst VR Workload,Round Robin,Core-time Utilization (%),98.4375
+hysteresis_utilization.png,hysteresis,Burst VR Workload,ThermOS-VR,Core-time Utilization (%),98.4375
+hysteresis_utilization.png,hysteresis,Burst VR Workload,EDF-NP,Core-time Utilization (%),98.4375
+hysteresis_utilization.png,hysteresis,Burst VR Workload,EDF,Core-time Utilization (%),98.4375
+hysteresis_utilization.png,hysteresis,Burst VR Workload,TA-EDF,Core-time Utilization (%),98.4375
+hysteresis_utilization.png,hysteresis,Burst VR Workload,EEVDF-inspired,Core-time Utilization (%),92.64705882352942
+hysteresis_utilization.png,hysteresis,Sustained Thermal Workload,FCFS,Core-time Utilization (%),98.14814814814817
+hysteresis_utilization.png,hysteresis,Sustained Thermal Workload,Priority,Core-time Utilization (%),98.50746268656717
+hysteresis_utilization.png,hysteresis,Sustained Thermal Workload,Round Robin,Core-time Utilization (%),99.61832061068702
+hysteresis_utilization.png,hysteresis,Sustained Thermal Workload,ThermOS-VR,Core-time Utilization (%),98.14814814814817
+hysteresis_utilization.png,hysteresis,Sustained Thermal Workload,EDF-NP,Core-time Utilization (%),99.61832061068702
+hysteresis_utilization.png,hysteresis,Sustained Thermal Workload,EDF,Core-time Utilization (%),98.87218045112782
+hysteresis_utilization.png,hysteresis,Sustained Thermal Workload,TA-EDF,Core-time Utilization (%),98.1203007518797
+hysteresis_utilization.png,hysteresis,Sustained Thermal Workload,EEVDF-inspired,Core-time Utilization (%),93.66197183098592
+hysteresis_utilization.png,hysteresis,HOT Thermal Workload,FCFS,Core-time Utilization (%),98.6725663716814
+hysteresis_utilization.png,hysteresis,HOT Thermal Workload,Priority,Core-time Utilization (%),98.6725663716814
+hysteresis_utilization.png,hysteresis,HOT Thermal Workload,Round Robin,Core-time Utilization (%),100.0
+hysteresis_utilization.png,hysteresis,HOT Thermal Workload,ThermOS-VR,Core-time Utilization (%),98.6725663716814
+hysteresis_utilization.png,hysteresis,HOT Thermal Workload,EDF-NP,Core-time Utilization (%),98.88392857142856
+hysteresis_utilization.png,hysteresis,HOT Thermal Workload,EDF,Core-time Utilization (%),98.88392857142856
+hysteresis_utilization.png,hysteresis,HOT Thermal Workload,TA-EDF,Core-time Utilization (%),99.77578475336324
+hysteresis_utilization.png,hysteresis,HOT Thermal Workload,EEVDF-inspired,Core-time Utilization (%),90.77868852459017

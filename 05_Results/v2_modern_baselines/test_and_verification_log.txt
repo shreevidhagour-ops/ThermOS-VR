@@ -1,0 +1,77 @@
+Run at 2026-10-21T00:20:45+05:30
+== unittest ==
+test_corrected_transition_table (test_governor.GovernorTransitionTests.test_corrected_transition_table) ... ok
+test_legacy_bug_b2_never_goes_below_2_2 (test_governor.GovernorTransitionTests.test_legacy_bug_b2_never_goes_below_2_2)
+v1 logic stays at 2.2 GHz even at 75 °C or 90 °C. ... ok
+test_one_step_per_tick (test_governor.GovernorTransitionTests.test_one_step_per_tick)
+At 95 °C and 2.5 GHz the governor moves one level only. ... ok
+test_default_parameters_only_reach_2_5_and_2_2 (test_governor.ReachabilityTests.test_default_parameters_only_reach_2_5_and_2_2)
+B3: with the v1 thermal parameters, even the corrected governor ... ok
+test_steady_state_temperatures (test_governor.ReachabilityTests.test_steady_state_temperatures)
+T* = ambient + heat / cooling = 25 + (f/2.5)^2 / 0.02 at 100 % load. ... ok
+test_stress_parameters_legacy_governor_overheats (test_governor.ReachabilityTests.test_stress_parameters_legacy_governor_overheats)
+Same stress parameters with the v1 logic: stuck at 2.2 GHz, so the ... ok
+test_stress_parameters_reach_all_four_levels (test_governor.ReachabilityTests.test_stress_parameters_reach_all_four_levels)
+With heat_coefficient = 2.5 (stress test only): ... ok
+test_corrected_governor_equals_legacy_on_benchmark_workloads (test_legacy_equivalence.LegacyEquivalenceTests.test_corrected_governor_equals_legacy_on_benchmark_workloads)
+B3: the multi-level fix changes nothing on the four workloads, ... ok
+test_thermos_v1_equals_fcfs_with_same_dvfs (test_legacy_equivalence.LegacyEquivalenceTests.test_thermos_v1_equals_fcfs_with_same_dvfs)
+Finding B8: under the same DVFS governor, ThermOS-VR v1 and FCFS ... ok
+test_thermos_v1_port_matches_original_scores (test_legacy_equivalence.LegacyEquivalenceTests.test_thermos_v1_port_matches_original_scores)
+The v2 port selects the same core as the original select_core() ... ok
+test_v2_reproduces_v1_task_outcomes_and_temperatures (test_legacy_equivalence.LegacyEquivalenceTests.test_v2_reproduces_v1_task_outcomes_and_temperatures) ... ok
+test_global_edf_two_cores_no_needless_migration (test_schedulers.EDFTests.test_global_edf_two_cores_no_needless_migration)
+2 cores. t0: A(dl20) -> core1, B(dl21) -> core2. ... ok
+test_idle_core_until_arrival (test_schedulers.EDFTests.test_idle_core_until_arrival)
+Task arriving at t=3 starts at 3; the core idles t0-t2. ... ok
+test_late_task_continues_and_counts_tardiness (test_schedulers.EDFTests.test_late_task_continues_and_counts_tardiness)
+A(arr 0, burst 5, dl 2) is not dropped: completes at 5, ... ok
+test_non_preemptive_edf_hand_example (test_schedulers.EDFTests.test_non_preemptive_edf_hand_example)
+1 core. t0: only A -> A runs 0-3 (non-preemptive). ... ok
+test_preemptive_edf_hand_example (test_schedulers.EDFTests.test_preemptive_edf_hand_example)
+1 core. t0 A runs. t1 B arrives (dl 4 < 10): preempts A, runs ... ok
+test_tie_break_earlier_arrival (test_schedulers.EDFTests.test_tie_break_earlier_arrival)
+Blocker R(pid 9) runs t0-t1 (dl 1, misses). At t2 P(pid 5, arr 0) ... ok
+test_tie_break_lower_pid (test_schedulers.EDFTests.test_tie_break_lower_pid)
+Equal deadline and arrival: lower PID first. ... ok
+test_equal_weights_alternate (test_schedulers.EEVDFTests.test_equal_weights_alternate)
+1 core, A and B (priority 3, burst 3, arr 0). ... ok
+test_ignores_deadlines (test_schedulers.EEVDFTests.test_ignores_deadlines)
+EEVDF does not use deadlines: urgent B (dl 2) does not preempt ... ok
+test_lag_stays_bounded (test_schedulers.EEVDFTests.test_lag_stays_bounded)
+With equal weights, no task's virtual runtime drifts more than one ... ok
+test_weighted_share (test_schedulers.EEVDFTests.test_weighted_share)
+Priority 2 (weight 3121) vs priority 3 (weight 1024) on 1 core. ... ok
+test_dvfs_slows_execution (test_schedulers.EngineTests.test_dvfs_slows_execution)
+1 core starting at 61 °C, burst 2, w=100, hysteresis governor. ... ok
+test_engine_rejects_double_assignment (test_schedulers.EngineTests.test_engine_rejects_double_assignment)
+Bug B1 regression: one task on two cores must be refused. ... ok
+test_fcfs_waiting_and_utilization_one_core (test_schedulers.EngineTests.test_fcfs_waiting_and_utilization_one_core)
+1 core, A(0,2) B(0,2): A runs 0-2, B runs 2-4. ... ok
+test_utilization_two_cores_one_task (test_schedulers.EngineTests.test_utilization_two_cores_one_task)
+2 cores, one task of burst 2: busy 2 of 2*2 core-ticks = 50 %. ... ok
+test_quantum_one_alternates (test_schedulers.RoundRobinTests.test_quantum_one_alternates) ... ok
+test_idle_insertion_is_bounded (test_schedulers.ThermalAwareEDFTests.test_idle_insertion_is_bounded)
+1 core held at 65 °C (cooling 0, w 0, so the temperature never ... ok
+test_idle_insertion_only_for_large_slack (test_schedulers.ThermalAwareEDFTests.test_idle_insertion_only_for_large_slack)
+Both cores at 59.5 °C (>= guard 59). Task with slack 27 is held ... ok
+test_matches_global_edf_when_cool_and_identical (test_schedulers.ThermalAwareEDFTests.test_matches_global_edf_when_cool_and_identical)
+Below the guard temperature and with identical cores, TA-EDF must ... ok
+test_non_urgent_task_takes_coolest_core (test_schedulers.ThermalAwareEDFTests.test_non_urgent_task_takes_coolest_core)
+Core1 55 °C @2.5, core2 50 °C @2.2. Task slack = 30-0-3 = 27 ... ok
+test_urgent_task_takes_fastest_core (test_schedulers.ThermalAwareEDFTests.test_urgent_task_takes_fastest_core)
+Same cores. Task slack = 3-0-3 = 0 <= 2 (urgent) -> fastest core 1. ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.218s
+
+OK
+
+== verify_outputs ==
+Runs checked:                     64
+Metric values recomputed:         1024
+Fresh re-runs compared:           64
+Plotted values checked:           768
+Original files verified unchanged: 49
+
+ALL CHECKS PASSED
