@@ -1,0 +1,11 @@
+# Simulation, figures and verification. These are the versions the recorded
+# results were verified with; verify_outputs.py compares PNGs pixel by pixel, so
+# other matplotlib versions may report differences.
+numpy==2.3.4
+pandas==3.0.5
+matplotlib==3.10.7
+
+# Only for rebuilding the paper and presentation in 07_Report/thermos_vr_ieee_paper/.
+# Versions were not recorded by the project.
+python-docx
+python-pptx
