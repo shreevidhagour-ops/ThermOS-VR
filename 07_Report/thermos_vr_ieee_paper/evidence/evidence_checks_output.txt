@@ -1,0 +1,112 @@
+
+=== Coverage, schema, missing values ===
+[PASS] COV-B-rows: benchmark rows = 64
+[PASS] COV-B-unique: unique (policy, DVFS, workload) = 64
+[PASS] COV-B-sets: policies=['EDF', 'EDF-NP', 'EEVDF-inspired', 'FCFS', 'Priority', 'Round Robin', 'TA-EDF', 'ThermOS-VR']; DVFS=['hysteresis', 'off']
+[PASS] COV-T-rows: task rows = 384, 6 per run = True
+[PASS] COV-S-rows: sensitivity rows = 1024
+[PASS] COV-S-grid: costs = [np.float64(0.0), np.float64(0.1), np.float64(0.25), np.float64(0.5)]; 16 pairs x 64 configurations, no duplicates
+[PASS] COV-NaN: NaN cells: benchmark=0, sensitivity=0
+[PASS] COV-defs: metric_definitions.csv covers all 16 benchmark metric columns
+Benchmark metric columns: ['Average Waiting Time', 'Average Turnaround Time', 'Average Completion Time', 'Average Response Time', 'Makespan', 'Deadline Misses', 'Total Tardiness', 'Average Temperature', 'Peak Temperature', 'Thermal Exposure (HOT core-ticks)', 'Core-ticks >= 60C', 'Throttled Busy Core-ticks', 'Heat Generated (model units)', 'Core-time Utilization (%)', 'Preemptions', 'Migrations']
+Sensitivity extra columns: ['Migration Cost', 'Context Switch Cost', 'Migration Events Charged', 'Resume Events Charged', 'Total Overhead Work']
+
+=== C3.1 ThermOS-VR equals FCFS under the same governor ===
+[PASS] C3.1: 128 metric comparisons, 0 differ
+
+=== C3.2 / C7.5 DVFS effect for FCFS (= ThermOS-VR) ===
+  Normal VR Workload          peak off=49.10 on=49.10; HOT core-ticks off=0 on=0; makespan off=16 on=16
+  Burst VR Workload           peak off=57.24 on=57.24; HOT core-ticks off=0 on=0; makespan off=32 on=32
+  Sustained Thermal Workload  peak off=67.61 on=61.28; HOT core-ticks off=0 on=0; makespan off=125 on=135
+  HOT Thermal Workload        peak off=71.74 on=62.49; HOT core-ticks off=64 on=0; makespan off=205 on=226
+[PASS] C7.5: HOT, FCFS: peak 71.74 -> 62.49, makespan 205 -> 226
+
+=== C5.1 EDF / TA-EDF lowest or tied-lowest waiting and tardiness ===
+  off        Normal VR Workload          Average Waiting Time   best=2.83 by ['Priority', 'EDF-NP', 'EDF', 'TA-EDF']
+  off        Normal VR Workload          Total Tardiness        best=2.00 by ['FCFS', 'Priority', 'ThermOS-VR', 'EDF-NP', 'EDF', 'TA-EDF']
+  off        Burst VR Workload           Average Waiting Time   best=3.00 by ['EDF', 'TA-EDF']
+  off        Burst VR Workload           Total Tardiness        best=17.00 by ['EDF', 'TA-EDF']
+  off        Sustained Thermal Workload  Average Waiting Time   best=39.17 by ['EDF', 'TA-EDF']
+  off        Sustained Thermal Workload  Total Tardiness        best=182.00 by ['EDF', 'TA-EDF']
+  off        HOT Thermal Workload        Average Waiting Time   best=64.17 by ['EDF']
+  off        HOT Thermal Workload        Total Tardiness        best=305.00 by ['EDF', 'TA-EDF']
+  hysteresis Normal VR Workload          Average Waiting Time   best=2.83 by ['Priority', 'EDF-NP', 'EDF', 'TA-EDF']
+  hysteresis Normal VR Workload          Total Tardiness        best=2.00 by ['FCFS', 'Priority', 'ThermOS-VR', 'EDF-NP', 'EDF', 'TA-EDF']
+  hysteresis Burst VR Workload           Average Waiting Time   best=3.00 by ['EDF', 'TA-EDF']
+  hysteresis Burst VR Workload           Total Tardiness        best=17.00 by ['EDF', 'TA-EDF']
+  hysteresis Sustained Thermal Workload  Average Waiting Time   best=40.83 by ['TA-EDF']
+  hysteresis Sustained Thermal Workload  Total Tardiness        best=208.00 by ['TA-EDF']
+  hysteresis HOT Thermal Workload        Average Waiting Time   best=69.17 by ['TA-EDF']
+  hysteresis HOT Thermal Workload        Total Tardiness        best=368.00 by ['EDF']
+[PASS] C5.1: an EDF variant attains the minimum in all 16 cases
+
+=== C5.2 EDF vs TA-EDF gap at zero overhead ===
+[PASS] C5.2: max |waiting gap| = 0.500, max |tardiness gap| = 2
+
+=== C5.3 Round Robin last on waiting and tardiness; EEVDF second-last on waiting ===
+[PASS] C5.3: holds in all 8 (DVFS, workload) cases
+
+=== C7.1 / C7.2 HOT exposure ===
+[PASS] C7.1: DVFS on: HOT core-ticks = 0 in all 32 runs
+[PASS] C7.2a: DVFS off: non-zero only in ['HOT Thermal Workload']
+  DVFS off, HOT workload: {'FCFS': 64, 'Priority': 64, 'Round Robin': 18, 'ThermOS-VR': 64, 'EDF-NP': 35, 'EDF': 65, 'TA-EDF': 26, 'EEVDF-inspired': 104}
+
+=== C7.4 total model heat identical across policies with DVFS off ===
+[PASS] C7.4: max spread per workload = 0.00e+00; values = {'Burst VR Workload': 58.0, 'HOT Thermal Workload': 359.25, 'Normal VR Workload': 18.2, 'Sustained Thermal Workload': 205.0}
+
+=== C7.3 core-ticks >= 60 C, DVFS on ===
+  Sustained Thermal Workload: FCFS=107, Priority=102, Round Robin=5, ThermOS-VR=107, EDF-NP=90, EDF=108, TA-EDF=28, EEVDF-inspired=77
+  HOT Thermal Workload: FCFS=281, Priority=281, Round Robin=49, ThermOS-VR=281, EDF-NP=269, EDF=286, TA-EDF=257, EEVDF-inspired=282
+
+=== C7.7 TA-EDF peak below EDF at zero overhead ===
+[PASS] C7.7: EDF - TA-EDF peak gaps: min 0.08, max 2.49 C
+  off        Normal VR Workload          gap 2.49
+  off        Burst VR Workload           gap 0.08
+  off        Sustained Thermal Workload  gap 1.82
+  off        HOT Thermal Workload        gap 1.97
+  hysteresis Normal VR Workload          gap 2.49
+  hysteresis Burst VR Workload           gap 0.08
+  hysteresis Sustained Thermal Workload  gap 1.04
+  hysteresis HOT Thermal Workload        gap 0.99
+
+=== C8.1 / C8.2 deadline feasibility (two cores) ===
+  Normal VR Workload          total work   28 -> makespan lower bound   14.0; deadlines 8-20; EDF misses (off) 1
+  Burst VR Workload           total work   63 -> makespan lower bound   31.5; deadlines 10-24; EDF misses (off) 2
+  Sustained Thermal Workload  total work  245 -> makespan lower bound  122.5; deadlines 45-60; EDF misses (off) 4
+  HOT Thermal Workload        total work  405 -> makespan lower bound  202.5; deadlines 75-100; EDF misses (off) 4
+[PASS] C8.3: Sustained / HOT: every policy misses 4 or 6 of 6
+
+=== C10.4 migrations at zero overhead ===
+  off        Normal: TA-EDF=8, EDF=0; Burst: TA-EDF=41, EDF=0; Sustained: TA-EDF=64, EDF=0; HOT: TA-EDF=114, EDF=0
+  hysteresis Normal: TA-EDF=8, EDF=0; Burst: TA-EDF=41, EDF=0; Sustained: TA-EDF=77, EDF=0; HOT: TA-EDF=193, EDF=0
+
+=== C6 overhead sensitivity (matched on DVFS, workload, migration cost, context-switch cost) ===
+[PASS] C6.1: EDF: 0 migrations in all 128 rows; tardiness varies by <= 2 ticks per (DVFS, workload)
+[PASS] C6.2: 96 matched configurations with migration cost >= 0.1; TA-EDF tardiness higher in 96, makespan longer in 96; tardiness diff 1..365, makespan diff 2..121
+[PASS] C6.3: Burst, mig >= 0.25: extra misses 3..4; HOT, mig 0.5, DVFS on: extra misses [np.int64(1)]
+[PASS] C6.4: migration cost 0: tardiness diff -4..5
+  peak diff (TA-EDF - EDF) Normal VR Workload          mig=0: -2.49..-2.49; mig>0: -2.09..-2.02
+  peak diff (TA-EDF - EDF) Burst VR Workload           mig=0: -0.43..-0.08; mig>0: +0.70..+3.93
+  peak diff (TA-EDF - EDF) Sustained Thermal Workload  mig=0: -1.88..-1.04; mig>0: -1.70..-1.08
+  peak diff (TA-EDF - EDF) HOT Thermal Workload        mig=0: -1.97..-0.99; mig>0: -2.10..-1.06
+[FAIL] C6.5-as-documented: claim '1.0-2.5 C below EDF': actual N/S/H range 0.99..2.49 C (minimum is below 1.0)
+[PASS] C6.5-exact: N/S/H: TA-EDF peak 0.99..2.49 C below EDF at every cost; Burst with mig > 0: +0.70..+3.93 C above EDF
+
+=== Table for paper: TA-EDF - EDF, DVFS on, context-switch cost 0 ===
+Workload        Normal VR Workload  Burst VR Workload  Sustained Thermal Workload  HOT Thermal Workload
+Migration Cost                                                                                         
+0.00                           0.0                0.0                        -2.0                   1.0
+0.10                           1.0                8.0                        13.0                  37.0
+0.25                           2.0               24.0                        39.0                 113.0
+0.50                           4.0               71.0                       159.0                 365.0
+Workload        Normal VR Workload  Burst VR Workload  Sustained Thermal Workload  HOT Thermal Workload
+Migration Cost                                                                                         
+0.00                         -2.49              -0.08                       -1.04                 -0.99
+0.10                         -2.09               1.05                       -1.08                 -1.06
+0.25                         -2.09               2.22                       -1.09                 -1.10
+0.50                         -2.02               2.97                       -1.18                 -1.11
+
+=== Zero-overhead sensitivity rows equal the benchmark ===
+[PASS] C6.7: 64 rows x 16 metrics, 0 mismatches
+
+SUMMARY: 24 of 25 checks passed

@@ -1,0 +1,18 @@
+P1 EDF reference: 3004 task sets (4 benchmark + 3000 random, seed 2026) x 3 core counts x 2 variants = 18024 comparisons; mismatches = 0
+P2 EEVDF-inspired (DVFS on): ineligible dispatches / max |lag| in slices
+   Normal VR Workload          1 core:   0 /  0.73    2 cores:   4 /  2.26
+   Burst VR Workload           1 core:   0 /  0.73    2 cores:  15 /  3.55
+   Sustained Thermal Workload  1 core:   0 /  0.94    2 cores:  27 /  7.67
+   HOT Thermal Workload        1 core:   0 /  0.91    2 cores:  56 / 22.59
+P3 TA-EDF hold-back analysis
+   off        Normal VR Workload          {'idle_core_ticks_with_waiting_task': 0}  skipped: []
+   off        Burst VR Workload           {'idle_core_ticks_with_waiting_task': 0}  skipped: []
+   off        Sustained Thermal Workload  {'idle_core_ticks_with_waiting_task': 0, 'ticks_hot_core_and_slack_rich_task': 3, 'placed_on_core_below_guard': 3}  skipped: []
+   off        HOT Thermal Workload        {'idle_core_ticks_with_waiting_task': 0, 'ticks_hot_core_and_slack_rich_task': 28, 'placed_on_core_below_guard': 28, 'skipped_by_hold_back': 1, 'cores_already_filled': 9}  skipped: [(32, 'Extreme Rendering', 10.0, 2, 59.14)]
+   hysteresis Normal VR Workload          {'idle_core_ticks_with_waiting_task': 0}  skipped: []
+   hysteresis Burst VR Workload           {'idle_core_ticks_with_waiting_task': 0}  skipped: []
+   hysteresis Sustained Thermal Workload  {'idle_core_ticks_with_waiting_task': 0, 'ticks_hot_core_and_slack_rich_task': 3, 'placed_on_core_below_guard': 3}  skipped: []
+   hysteresis HOT Thermal Workload        {'idle_core_ticks_with_waiting_task': 0, 'ticks_hot_core_and_slack_rich_task': 28, 'placed_on_core_below_guard': 28, 'skipped_by_hold_back': 1, 'cores_already_filled': 9}  skipped: [(32, 'Extreme Rendering', 10.0, 2, 59.14)]
+   TOTAL over 64-run benchmark: {'idle_core_ticks_with_waiting_task': 0, 'ticks_hot_core_and_slack_rich_task': 62, 'placed_on_core_below_guard': 62, 'skipped_by_hold_back': 2, 'cores_already_filled': 18}
+
+P1 zero mismatches: True; P3 no core ever idled by hold-back: True

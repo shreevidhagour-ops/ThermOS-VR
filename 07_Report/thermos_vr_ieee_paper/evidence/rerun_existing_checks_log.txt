@@ -1,0 +1,32 @@
+Re-run at 2026-10-21T01:35:05+05:30 from 03_Code/day5_modern_baselines (python -B)
+$ python -B -m unittest discover -s tests
+
+OK
+
+  [documented limitation] Burst VR, 2 cores: 15 ineligible dispatches, max |lag| = 3.55 slices
+
+$ python -B verify_outputs.py
+Runs checked:                     64
+Metric values recomputed:         1024
+Fresh re-runs compared:           64
+Plotted values checked:           768
+PNGs pixel-identical to re-render: 25 of 25
+Trace-figure points vs raw trace: 1798
+Task work accounting checked:     384 task rows; 88 finish partway through their final tick (unused capacity total 44.440, max 0.960 work units)
+Original files verified unchanged: 49
+v2 baseline outputs unchanged since pre-fix snapshot: 32
+
+ALL CHECKS PASSED
+exit=0
+
+$ python -B verify_sensitivity.py
+Sensitivity runs checked:            1024
+Zero-overhead rows == baseline:      64 rows x 16 metrics
+Task rows recomputed from trace:     6144 (2437 finish partway through a tick)
+Fresh re-runs compared:              1024
+Protected files unchanged (v1 + v2): 81
+
+ALL SENSITIVITY CHECKS PASSED
+exit=0
+Ran 42 tests in 0.846s
+OK

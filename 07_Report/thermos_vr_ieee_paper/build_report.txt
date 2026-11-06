@@ -1,0 +1,65 @@
+Build OK. 54 prose facts asserted against CSVs.
+Citations: 38 references cited, 0 uncited; order of first appearance:
+  [1] jerald2009, [2] zhao2017, [3] lai2017, [4] zhang2020, [5] brooks2001, [6] pillai2001, [7] kong2012, [8] liu1973, [9] jeffay1991, [10] dhall1978, [11] davis2011, [12] abeni1998, [13] lelli2016, [14] kdoc_deadline, [15] stoica1995, [16] baruah1996, [17] chandra2000, [18] corbet2023, [19] kdoc_eevdf, [20] skadron2003, [21] huang2006, [22] hung2005, [23] coskun2007, [24] chrobak2008, [25] perez2021, [26] lee2019, [27] dowling2025, [28] kumar2003, [29] kdoc_capacity, [30] kdoc_eas, [31] pathania2014, [32] dou2025, [33] xie2014, [34] huzaifa2021, [35] jain1991, [36] georges2007, [37] hoefler2015, [38] li2007
+Tables: 8; figures: 7; equations: 5; body words ~5729
+copied 06_Figures/v2_modern_baselines/hysteresis_waiting_time.png -> figures/hysteresis_waiting_time.png (sha256 equal)
+copied 06_Figures/v2_modern_baselines/hysteresis_total_tardiness.png -> figures/hysteresis_total_tardiness.png (sha256 equal)
+copied 06_Figures/v2_modern_baselines/hysteresis_core_ticks_above_60c.png -> figures/hysteresis_core_ticks_above_60c.png (sha256 equal)
+copied 06_Figures/v2_modern_baselines/hysteresis_peak_temperature.png -> figures/hysteresis_peak_temperature.png (sha256 equal)
+copied 06_Figures/v2_modern_baselines/hysteresis_hot_temperature_trace.png -> figures/hysteresis_hot_temperature_trace.png (sha256 equal)
+
+Fact log:
+[OK ] runs: 64
+[OK ] task records: 384
+[OK ] sensitivity runs: 1024
+[OK ] ThermOS==FCFS diffs: 0
+[OK ] FCFS HOT peak off: 71.74
+[OK ] FCFS HOT peak on: 62.49
+[OK ] FCFS HOT HOT-ticks off: 64
+[OK ] FCFS HOT makespan off/on: (np.int64(205), np.int64(226))
+[OK ] FCFS Sus peak off/on: (np.float64(67.61), np.float64(61.28))
+[OK ] FCFS Sus makespan off/on: (np.int64(125), np.int64(135))
+[OK ] Normal/Burst never 60C: 0
+[OK ] Normal waiting min: 2.83
+[OK ] Normal waiting ties: ['EDF', 'EDF-NP', 'Priority', 'TA-EDF']
+[OK ] Normal tardiness=2 count: 6
+[OK ] Sus waiting TA/EDF: (np.float64(40.83), np.float64(41.33))
+[OK ] HOT waiting TA/EDF: (np.float64(69.17), np.float64(69.5))
+[OK ] HOT tardiness EDF/TA: (np.int64(368), np.int64(369))
+[OK ] max EDF/TA waiting gap<=0.5: True
+[OK ] max EDF/TA tardiness gap: 2
+[OK ] EDF variant min everywhere: True
+[OK ] EDF-NP Burst tie: 4.33
+[OK ] RR HOT tardiness on: 697
+[OK ] RR worst / EEVDF 2nd waiting: True
+[OK ] misses S/H: [('EDF', np.int64(4)), ('EEVDF-inspired', np.int64(6)), ('FCFS', np.int64(4)), ('Round Robin', np.int64(6))]
+[OK ] HOT exposure on all zero: 0
+[OK ] ge60 Sus on RR/TA/EDF: (np.int64(5), np.int64(28), np.int64(108))
+[OK ] ge60 HOT on RR/TA/EDF: (np.int64(49), np.int64(257), np.int64(286))
+[OK ] zero-overhead peak gap range: (np.float64(0.08), np.float64(2.49))
+[OK ] throttled HOT TA/EDF: (np.int64(321), np.int64(294))
+[OK ] HOT exposure off: (np.int64(18), np.int64(26), np.int64(35), np.int64(64), np.int64(64), np.int64(64), np.int64(65), np.int64(104))
+[OK ] HOT exposure off only HOT: ['HOT Thermal Workload']
+[OK ] ge60 off TA vs EDF: (np.int64(154), np.int64(137), np.int64(304), np.int64(299))
+[OK ] heat off identical: (np.float64(0.0), np.float64(0.0), np.float64(0.0), np.float64(0.0))
+[OK ] heat off values: (np.float64(18.2), np.float64(58.0), np.float64(205.0), np.float64(359.25))
+[OK ] TA migrations on: (np.int64(8), np.int64(41), np.int64(77), np.int64(193))
+[OK ] TA migrations off: (np.int64(8), np.int64(41), np.int64(64), np.int64(114))
+[OK ] EDF migrations: 0
+[OK ] EDF sens tardiness spread: 2
+[OK ] cs-only diff range: (np.int64(-4), np.int64(5))
+[OK ] mig>=0.1 count: 96
+[OK ] mig>=0.1 all worse: True
+[OK ] mig>=0.1 ranges: (np.int64(1), np.int64(365), np.int64(2), np.int64(121))
+[OK ] Burst extra misses: (np.int64(3), np.int64(4))
+[OK ] HOT 0.5 on extra miss: [np.int64(1)]
+[OK ] N/S/H peak below EDF range: (np.float64(0.99), np.float64(2.49))
+[OK ] N/S/H always below: True
+[OK ] Burst above range: (np.float64(0.7), np.float64(3.93))
+[OK ] workload totals: (28, 63, 245, 405)
+[OK ] deadline ranges: ((8, 20), (10, 24), (45, 60), (75, 100))
+[OK ] thermal params: (25.0, 45.0, 1.0, 0.02)
+[OK ] steady state 2.5/2.2: (75.0, 63.7)
+[OK ] off Sus EDF=TA waiting/tardiness: (np.float64(39.17), np.float64(39.17), np.int64(182), np.int64(182))
+[OK ] off HOT waiting EDF/TA, tardiness tie: (np.float64(64.17), np.float64(64.33), np.int64(305), np.int64(305))
+[OK ] HOT inter-core |dT| on EDF/TA/FCFS, off EDF/TA: (3.22, 1.43, 0.72, 5.58, 3.01)
