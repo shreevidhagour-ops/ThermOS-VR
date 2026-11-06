@@ -1,0 +1,22 @@
+# Confirmed issues in the v1 (day1–day4) code
+
+Recorded on 2026-10-21, **before** any correction was written. Every item below was confirmed
+by reading the code and by running read-only instrumented copies of the v1 simulations.
+All 20 rows of `05_Results/experiment_results.csv` reproduce exactly from the v1 code.
+
+The v1 files are **not edited**. Corrections exist only in `day5_modern_baselines/`.
+A full copy of the originals is in `10_Backups/v1_original_2026-10-21/`, together with SHA-256 checksums.
+
+| # | Location (v1) | Issue | Evidence | Correction in v2 |
+|---|---|---|---|---|
+| B1 | `day3_thermos_scheduler/thermal_dvfs_scheduler.py` `get_ready_processes()` | Tasks that are already running stay in the ready list. An idle core can therefore pick up a task that another core is running, so one task executes on two cores in the same tick. Waiting time is also inflated, because running tasks are re-added to `waiting_start` every tick. | Measured double assignments: Normal 4, Burst 2, Sustained 3, HOT 2. Example: in Normal VR at t=1, core 2 was assigned PID 1 while PID 1 was still running on core 1. | In the unified engine, the ready set excludes running tasks, and every tick asserts that each task is on at most one core. "Thermal-DVFS" becomes FCFS + DVFS governor. |
+| B2 | `scheduler.py` and `thermal_dvfs_scheduler.py` `update_frequency()` | DVFS only steps down 2.5 → 2.2 GHz. The 1.8 and 1.4 GHz branches only step *up*, and nothing ever sets those frequencies. | Every v1 log contains only {2.5, 2.2}. | A four-level hysteresis governor: down at 60 / 70 / 80 °C, up at 58 / 68 / 78 °C. |
+| B3 | `thermal_model.py` default parameters | CRITICAL (≥80 °C) can never be reached. HOT (≥70 °C) can never be reached once a core runs at 2.2 GHz. Settling temperature under 100 % load: 2.5 GHz → 75.0 °C, 2.2 GHz → 63.7 °C, 1.8 GHz → 50.9 °C, 1.4 GHz → 40.7 °C. **So even with B2 fixed, 1.8 / 1.4 GHz cannot occur with the current parameters.** | Analytic fixed point T* = 25 + (f/2.5)²/0.02, plus the test `test_governor.py`. | The parameters are kept unchanged so results stay comparable. The fix is shown to work with a separate stress parameter set in the tests. |
+| B4 | `scheduler.py` `select_core()` | The deadline score depends only on the task and the time, so it adds the same constant to every candidate core and never changes which core wins. | Code inspection, plus `test_thermos_v1_port_matches_original_scores`. | Kept as is in the ThermOS-VR v1 port (faithful port). Documented. |
+| B5 | `scheduler.py` lines 392–416 | The CRITICAL eviction path can never run (see B3), and the `waiting_start` dict it writes is never read. | Code inspection. | Kept in the faithful port. Unreachable under the default parameters. |
+| B6 | All v1 schedulers | Each scheduler has its own copy of the time loop, with different logging rules. FCFS, Priority and ThermOS log a t=0 row and log *after* release. RR and Thermal-DVFS log *before* release with no t=0 row, and Thermal-DVFS also logs time *before* the increment. Utilization and average temperature are therefore not comparable across schedulers, and Thermal-DVFS "Simulation Time" is one tick too short (133 vs 134 in Sustained). | v1 CSV: Normal VR utilization is 64.7 % (FCFS) vs 93.75 % (Thermal-DVFS) for the same busy time. | One shared engine with one logging rule and one set of metric definitions (see README). |
+| B7 | v1 experiment design | FCFS, Priority and RR run with no thermal management, while Thermal-DVFS and ThermOS-VR use DVFS, so their thermal results compare "DVFS vs no DVFS". | Code inspection. | Every policy is run under both governors (`off`, `hysteresis`). |
+| B8 | ThermOS-VR v1 | Its core selection has no measurable effect: on all 6 workloads the results equal FCFS + DVFS. The cores are physically identical, and non-preemptive FCFS ordering fixes the run order. | Ablation; re-tested in `test_legacy_equivalence.py`. | Reported as a finding, not "fixed". |
+| B9 | `day1_basic_scheduler/main.py` | Imports a `scheduler` module that does not exist in day1. | Code inspection. | Not used by v2. Left unchanged. |
+| B10 | `day4_experiments/check_thermos_dvfs.py` | Calls `run_scheduler()` with 2 arguments; it needs 3. | Code inspection. | Not used by v2. Left unchanged. |
+| B11 | `experiment_runner.py` | Deletes `05_Results/experiment_results.csv` every time it runs. | Line 250. | v2 writes only to `05_Results/v2_modern_baselines/`. |
